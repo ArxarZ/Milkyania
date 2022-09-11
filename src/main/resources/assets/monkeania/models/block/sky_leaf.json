@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "monkeania:blocks/skyleaf",
+    "particle": "monkeania:blocks/skyleaf"
+  }
+}

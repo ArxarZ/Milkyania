@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "item": "monkeania:ant_item"
+    },
+    "title": {
+      "translate": "advancements.ant_advancement.title"
+    },
+    "description": {
+      "translate": "advancements.ant_advancement.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "ant_advancement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "monkeania:ant_item"
+            ],
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "monkeania:its_golden"
+}

@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "monkeania:spider_skin"
+    },
+    "1": {
+      "item": "monkeania:spider_leg"
+    },
+    "2": {
+      "item": "monkeania:spider_skin"
+    },
+    "3": {
+      "item": "monkeania:spider_skin"
+    },
+    "5": {
+      "item": "monkeania:spider_skin"
+    }
+  },
+  "result": {
+    "item": "monkeania:spider_armor_helmet",
+    "count": 1
+  }
+}

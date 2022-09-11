@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "monkeania:blocks/necronite_ore_block",
+    "particle": "monkeania:blocks/necronite_ore_block"
+  }
+}

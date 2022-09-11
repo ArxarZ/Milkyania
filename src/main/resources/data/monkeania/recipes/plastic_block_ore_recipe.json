@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "monkeania:plastic_block"
+    }
+  ],
+  "result": {
+    "item": "monkeania:plastic_ingot",
+    "count": 9
+  }
+}

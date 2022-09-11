@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "item": "monkeania:golden_worm"
+    },
+    "title": {
+      "translate": "advancements.its_golden.title"
+    },
+    "description": {
+      "translate": "advancements.its_golden.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "its_golden": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "monkeania:golden_worm"
+            ],
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "monkeania:bugs"
+}

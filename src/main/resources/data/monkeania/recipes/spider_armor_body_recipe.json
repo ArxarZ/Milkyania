@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "monkeania:spider_skin"
+    },
+    "2": {
+      "item": "monkeania:spider_skin"
+    },
+    "3": {
+      "item": "monkeania:spider_skin"
+    },
+    "4": {
+      "item": "monkeania:spider_leg"
+    },
+    "5": {
+      "item": "monkeania:spider_skin"
+    },
+    "6": {
+      "item": "monkeania:spider_skin"
+    },
+    "7": {
+      "item": "monkeania:spider_skin"
+    },
+    "8": {
+      "item": "monkeania:spider_skin"
+    }
+  },
+  "result": {
+    "item": "monkeania:spider_armor_chestplate",
+    "count": 1
+  }
+}

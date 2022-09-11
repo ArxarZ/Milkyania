@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "monkeania:blocks/crimsonflower",
+    "particle": "monkeania:blocks/crimsonflower"
+  }
+}

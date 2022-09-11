@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1",
+    "2"
+  ],
+  "key": {
+    "0": {
+      "item": "monkeania:black_bone"
+    },
+    "1": {
+      "item": "monkeania:black_bone"
+    },
+    "2": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "monkeania:bone_sword",
+    "count": 1
+  }
+}

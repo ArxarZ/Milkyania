@@ -1,0 +1,74 @@
+{
+  "_fv": 33,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": true,
+    "textureHelmet": "necronite_head",
+    "enableBody": true,
+    "textureBody": "necronite_body",
+    "enableLeggings": true,
+    "textureLeggings": "necronite_leggings",
+    "enableBoots": true,
+    "textureBoots": "necronite_boots",
+    "onHelmetTick": {
+      "name": "Necroniteeffects"
+    },
+    "onBodyTick": {
+      "name": "Necroniteeffects"
+    },
+    "onLeggingsTick": {
+      "name": "Necroniteeffects"
+    },
+    "onBootsTick": {
+      "name": "Necroniteeffects"
+    },
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "armorTextureFile": "necronite",
+    "helmetName": "Necronite Helmet",
+    "bodyName": "Necronite Chestplate",
+    "leggingsName": "Necronite Leggings",
+    "bootsName": "Necronite Boots",
+    "helmetSpecialInfo": [],
+    "bodySpecialInfo": [],
+    "leggingsSpecialInfo": [],
+    "bootsSpecialInfo": [],
+    "helmetModelName": "Default",
+    "helmetModelPart": "Helmet",
+    "helmetModelTexture": "From armor",
+    "bodyModelName": "Default",
+    "bodyModelPart": "Body",
+    "armsModelPartL": "Arms L",
+    "armsModelPartR": "Arms R",
+    "bodyModelTexture": "From armor",
+    "leggingsModelName": "Default",
+    "leggingsModelPartL": "Leggings L",
+    "leggingsModelPartR": "Leggings R",
+    "leggingsModelTexture": "From armor",
+    "bootsModelName": "Default",
+    "bootsModelPartL": "Boots L",
+    "bootsModelPartR": "Boots R",
+    "bootsModelTexture": "From armor",
+    "helmetImmuneToFire": false,
+    "bodyImmuneToFire": false,
+    "leggingsImmuneToFire": false,
+    "bootsImmuneToFire": false,
+    "maxDamage": 35,
+    "damageValueHelmet": 3,
+    "damageValueBody": 6,
+    "damageValueLeggings": 7,
+    "damageValueBoots": 4,
+    "enchantability": 20,
+    "toughness": 2.5,
+    "knockbackResistance": 0.2,
+    "equipSound": {
+      "value": ""
+    },
+    "repairItems": [
+      {
+        "value": "CUSTOM:Necronite"
+      }
+    ]
+  }
+}

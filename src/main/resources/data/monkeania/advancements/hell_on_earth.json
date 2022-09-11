@@ -1,0 +1,26 @@
+{
+  "display": {
+    "background": "minecraft:textures/block/stone.png",
+    "icon": {
+      "item": "monkeania:carmine_flower"
+    },
+    "title": {
+      "translate": "advancements.hell_on_earth.title"
+    },
+    "description": {
+      "translate": "advancements.hell_on_earth.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "hell_on_earth": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "monkeania:carmine_forest"
+      }
+    }
+  }
+}

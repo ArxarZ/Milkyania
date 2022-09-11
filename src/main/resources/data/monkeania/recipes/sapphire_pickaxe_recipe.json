@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    " 4 ",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "monkeania:sapphire"
+    },
+    "1": {
+      "item": "monkeania:sapphire"
+    },
+    "2": {
+      "item": "monkeania:sapphire"
+    },
+    "4": {
+      "item": "minecraft:stick"
+    },
+    "7": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "monkeania:sapphire_pickaxe",
+    "count": 1
+  }
+}

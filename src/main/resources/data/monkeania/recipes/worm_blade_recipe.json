@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1",
+    "2"
+  ],
+  "key": {
+    "0": {
+      "item": "monkeania:golden_worm"
+    },
+    "1": {
+      "item": "monkeania:worm_item"
+    },
+    "2": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "monkeania:worm_blade",
+    "count": 1
+  }
+}

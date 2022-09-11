@@ -1,0 +1,1538 @@
+{
+  "mod_elements": [
+    {
+      "name": "DirtSword",
+      "type": "tool",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dirt_sword"
+    },
+    {
+      "name": "DirtSwordRecipe",
+      "type": "recipe",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dirt_sword_recipe"
+    },
+    {
+      "name": "PowerOfTheEarth",
+      "type": "achievement",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "power_of_the_earth",
+      "path": "~/Advancements"
+    },
+    {
+      "name": "ChickenNugget",
+      "type": "item",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chicken_nugget"
+    },
+    {
+      "name": "Fries",
+      "type": "item",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fries"
+    },
+    {
+      "name": "HellOnEarth",
+      "type": "achievement",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hell_on_earth"
+    },
+    {
+      "name": "Ashes",
+      "type": "item",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ashes"
+    },
+    {
+      "name": "BurntSlime",
+      "type": "livingentity",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "burnt_slime"
+    },
+    {
+      "name": "BurntSlimeAttack",
+      "type": "livingentity",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "burnt_slime_attack"
+    },
+    {
+      "name": "WormItem",
+      "type": "item",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "worm_item"
+    },
+    {
+      "name": "Worm",
+      "type": "livingentity",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "worm"
+    },
+    {
+      "name": "GoldenWorm",
+      "type": "item",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "golden_worm"
+    },
+    {
+      "name": "GoldenWormEntity",
+      "type": "livingentity",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "golden_worm_entity"
+    },
+    {
+      "name": "Ant",
+      "type": "livingentity",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ant"
+    },
+    {
+      "name": "AntItem",
+      "type": "item",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ant_item"
+    },
+    {
+      "name": "DirtBlocks",
+      "type": "tag",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dirt_blocks",
+      "path": "~/Tags"
+    },
+    {
+      "name": "LogBlocks",
+      "type": "tag",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "log_blocks",
+      "path": "~/Tags"
+    },
+    {
+      "name": "LeaveBlocks",
+      "type": "tag",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "leave_blocks",
+      "path": "~/Tags"
+    },
+    {
+      "name": "CarmineFlower",
+      "type": "plant",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "carmine_flower"
+    },
+    {
+      "name": "Travertine",
+      "type": "block",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "travertine"
+    },
+    {
+      "name": "Scoria",
+      "type": "block",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "scoria"
+    },
+    {
+      "name": "Butterfly",
+      "type": "livingentity",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "butterfly"
+    },
+    {
+      "name": "PlasticIngot",
+      "type": "item",
+      "sortid": 72,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "plastic_ingot",
+      "path": "~/Plastic"
+    },
+    {
+      "name": "PlasticOre",
+      "type": "block",
+      "sortid": 73,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "plastic_ore",
+      "path": "~/Plastic"
+    },
+    {
+      "name": "PlasticBlock",
+      "type": "block",
+      "sortid": 74,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "plastic_block",
+      "path": "~/Plastic"
+    },
+    {
+      "name": "PlasticOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 75,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "plastic_ore_block_recipe",
+      "path": "~/Plastic"
+    },
+    {
+      "name": "PlasticBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 76,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "plastic_block_ore_recipe",
+      "path": "~/Plastic"
+    },
+    {
+      "name": "PlasticOreSmelting",
+      "type": "recipe",
+      "sortid": 77,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "plastic_ore_smelting",
+      "path": "~/Plastic"
+    },
+    {
+      "name": "PlasticPickaxe",
+      "type": "tool",
+      "sortid": 78,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "plastic_pickaxe",
+      "path": "~/Plastic"
+    },
+    {
+      "name": "PlasticAxe",
+      "type": "tool",
+      "sortid": 79,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "plastic_axe",
+      "path": "~/Plastic"
+    },
+    {
+      "name": "PlasticSword",
+      "type": "tool",
+      "sortid": 80,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "plastic_sword",
+      "path": "~/Plastic"
+    },
+    {
+      "name": "PlasticShovel",
+      "type": "tool",
+      "sortid": 81,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "plastic_shovel",
+      "path": "~/Plastic"
+    },
+    {
+      "name": "PlasticHoe",
+      "type": "tool",
+      "sortid": 82,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "plastic_hoe",
+      "path": "~/Plastic"
+    },
+    {
+      "name": "PlasticPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 83,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "plastic_pickaxe_recipe",
+      "path": "~/Plastic"
+    },
+    {
+      "name": "PlasticAxeRecipe",
+      "type": "recipe",
+      "sortid": 84,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "plastic_axe_recipe",
+      "path": "~/Plastic"
+    },
+    {
+      "name": "PlasticSwordRecipe",
+      "type": "recipe",
+      "sortid": 85,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "plastic_sword_recipe",
+      "path": "~/Plastic"
+    },
+    {
+      "name": "PlasticShovelRecipe",
+      "type": "recipe",
+      "sortid": 86,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "plastic_shovel_recipe",
+      "path": "~/Plastic"
+    },
+    {
+      "name": "PlasticHoeRecipe",
+      "type": "recipe",
+      "sortid": 87,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "plastic_hoe_recipe",
+      "path": "~/Plastic"
+    },
+    {
+      "name": "PlasticArmor",
+      "type": "armor",
+      "sortid": 88,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "plastic_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      },
+      "path": "~/Plastic"
+    },
+    {
+      "name": "PlasticArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 89,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "plastic_armor_helmet_recipe",
+      "path": "~/Plastic"
+    },
+    {
+      "name": "PlasticArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 90,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "plastic_armor_body_recipe",
+      "path": "~/Plastic"
+    },
+    {
+      "name": "PlasticArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 91,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "plastic_armor_leggings_recipe",
+      "path": "~/Plastic"
+    },
+    {
+      "name": "PlasticArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 92,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "plastic_armor_boots_recipe",
+      "path": "~/Plastic"
+    },
+    {
+      "name": "SkyLeaf",
+      "type": "plant",
+      "sortid": 93,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sky_leaf"
+    },
+    {
+      "name": "WormBlade",
+      "type": "tool",
+      "sortid": 94,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "worm_blade"
+    },
+    {
+      "name": "Nugaxe",
+      "type": "tool",
+      "sortid": 96,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nugaxe"
+    },
+    {
+      "name": "Nuggaxe",
+      "type": "recipe",
+      "sortid": 97,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nuggaxe"
+    },
+    {
+      "name": "WormBladeRecipe",
+      "type": "recipe",
+      "sortid": 98,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "worm_blade_recipe"
+    },
+    {
+      "name": "UncleJoe",
+      "type": "livingentity",
+      "sortid": 101,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uncle_joe"
+    },
+    {
+      "name": "ScoriaRock",
+      "type": "structure",
+      "sortid": 102,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "scoria_rock"
+    },
+    {
+      "name": "ScoriaRockUnderground",
+      "type": "structure",
+      "sortid": 103,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "scoria_rock_underground"
+    },
+    {
+      "name": "Blood",
+      "type": "item",
+      "sortid": 104,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blood"
+    },
+    {
+      "name": "CreepDefeated",
+      "type": "achievement",
+      "sortid": 104,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "creep_defeated"
+    },
+    {
+      "name": "Butterflyitem",
+      "type": "item",
+      "sortid": 105,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "butterflyitem"
+    },
+    {
+      "name": "Bugs",
+      "type": "achievement",
+      "sortid": 105,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bugs",
+      "path": "~/Advancements"
+    },
+    {
+      "name": "ItsGolden",
+      "type": "achievement",
+      "sortid": 106,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "its_golden",
+      "path": "~/Advancements"
+    },
+    {
+      "name": "AntAdvancement",
+      "type": "achievement",
+      "sortid": 107,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ant_advancement",
+      "path": "~/Advancements"
+    },
+    {
+      "name": "Butteflies",
+      "type": "achievement",
+      "sortid": 108,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "butteflies",
+      "path": "~/Advancements"
+    },
+    {
+      "name": "CombineTheWorms",
+      "type": "achievement",
+      "sortid": 109,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "combine_the_worms",
+      "path": "~/Advancements"
+    },
+    {
+      "name": "Arachna",
+      "type": "livingentity",
+      "sortid": 110,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "arachna"
+    },
+    {
+      "name": "SpiderLeg",
+      "type": "item",
+      "sortid": 111,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spider_leg"
+    },
+    {
+      "name": "OneLegSpider",
+      "type": "livingentity",
+      "sortid": 113,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "one_leg_spider"
+    },
+    {
+      "name": "SpiderSkin",
+      "type": "item",
+      "sortid": 114,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spider_skin"
+    },
+    {
+      "name": "Skyder",
+      "type": "livingentity",
+      "sortid": 115,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "skyder"
+    },
+    {
+      "name": "FlyItem",
+      "type": "item",
+      "sortid": 116,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fly_item"
+    },
+    {
+      "name": "Fly",
+      "type": "livingentity",
+      "sortid": 116,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fly"
+    },
+    {
+      "name": "SpiderSlayer",
+      "type": "achievement",
+      "sortid": 117,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spider_slayer",
+      "path": "~/Advancements"
+    },
+    {
+      "name": "Flyyyy",
+      "type": "achievement",
+      "sortid": 118,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flyyyy",
+      "path": "~/Advancements"
+    },
+    {
+      "name": "SpiderArmor",
+      "type": "armor",
+      "sortid": 119,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spider_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      },
+      "path": "~/SpiderArmor"
+    },
+    {
+      "name": "SpiderArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 120,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spider_armor_helmet_recipe",
+      "path": "~/SpiderArmor"
+    },
+    {
+      "name": "SpiderArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 121,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spider_armor_body_recipe",
+      "path": "~/SpiderArmor"
+    },
+    {
+      "name": "SpiderArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 122,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spider_armor_leggings_recipe",
+      "path": "~/SpiderArmor"
+    },
+    {
+      "name": "SpiderArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 123,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spider_armor_boots_recipe",
+      "path": "~/SpiderArmor"
+    },
+    {
+      "name": "Abyssius",
+      "type": "livingentity",
+      "sortid": 124,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "abyssius"
+    },
+    {
+      "name": "BlackBone",
+      "type": "item",
+      "sortid": 125,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_bone"
+    },
+    {
+      "name": "RawZebrameat",
+      "type": "item",
+      "sortid": 126,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_zebrameat"
+    },
+    {
+      "name": "CookedZebraMeat",
+      "type": "item",
+      "sortid": 127,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cooked_zebra_meat"
+    },
+    {
+      "name": "Zebrameat",
+      "type": "recipe",
+      "sortid": 128,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zebrameat"
+    },
+    {
+      "name": "Zebra",
+      "type": "livingentity",
+      "sortid": 125,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zebra"
+    },
+    {
+      "name": "Slaughter",
+      "type": "achievement",
+      "sortid": 129,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "slaughter",
+      "path": "~/Advancements"
+    },
+    {
+      "name": "BoneSword",
+      "type": "tool",
+      "sortid": 130,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bone_sword"
+    },
+    {
+      "name": "BoneSwordrecipe",
+      "type": "recipe",
+      "sortid": 131,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bone_swordrecipe"
+    },
+    {
+      "name": "Trichina",
+      "type": "livingentity",
+      "sortid": 132,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "trichina"
+    },
+    {
+      "name": "Ruby",
+      "type": "item",
+      "sortid": 133,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby",
+      "path": "~/Ruby"
+    },
+    {
+      "name": "RubyOre",
+      "type": "block",
+      "sortid": 134,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_ore",
+      "path": "~/Ruby"
+    },
+    {
+      "name": "RubyBlock",
+      "type": "block",
+      "sortid": 135,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_block",
+      "path": "~/Ruby"
+    },
+    {
+      "name": "RubyOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 136,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_ore_block_recipe",
+      "path": "~/Ruby"
+    },
+    {
+      "name": "RubyBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 137,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_block_ore_recipe",
+      "path": "~/Ruby"
+    },
+    {
+      "name": "RubyOreSmelting",
+      "type": "recipe",
+      "sortid": 138,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_ore_smelting",
+      "path": "~/Ruby"
+    },
+    {
+      "name": "RubyPickaxe",
+      "type": "tool",
+      "sortid": 139,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_pickaxe",
+      "path": "~/Ruby"
+    },
+    {
+      "name": "RubyAxe",
+      "type": "tool",
+      "sortid": 140,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_axe",
+      "path": "~/Ruby"
+    },
+    {
+      "name": "RubySword",
+      "type": "tool",
+      "sortid": 141,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_sword",
+      "path": "~/Ruby"
+    },
+    {
+      "name": "RubyShovel",
+      "type": "tool",
+      "sortid": 142,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_shovel",
+      "path": "~/Ruby"
+    },
+    {
+      "name": "RubyHoe",
+      "type": "tool",
+      "sortid": 143,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_hoe",
+      "path": "~/Ruby"
+    },
+    {
+      "name": "RubyPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 144,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_pickaxe_recipe",
+      "path": "~/Ruby"
+    },
+    {
+      "name": "RubyAxeRecipe",
+      "type": "recipe",
+      "sortid": 145,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_axe_recipe",
+      "path": "~/Ruby"
+    },
+    {
+      "name": "RubySwordRecipe",
+      "type": "recipe",
+      "sortid": 146,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_sword_recipe",
+      "path": "~/Ruby"
+    },
+    {
+      "name": "RubyShovelRecipe",
+      "type": "recipe",
+      "sortid": 147,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_shovel_recipe",
+      "path": "~/Ruby"
+    },
+    {
+      "name": "RubyHoeRecipe",
+      "type": "recipe",
+      "sortid": 148,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_hoe_recipe",
+      "path": "~/Ruby"
+    },
+    {
+      "name": "RubyArmor",
+      "type": "armor",
+      "sortid": 149,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      },
+      "path": "~/Ruby"
+    },
+    {
+      "name": "RubyArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 150,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_armor_helmet_recipe",
+      "path": "~/Ruby"
+    },
+    {
+      "name": "RubyArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 151,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_armor_body_recipe",
+      "path": "~/Ruby"
+    },
+    {
+      "name": "RubyArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 152,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_armor_leggings_recipe",
+      "path": "~/Ruby"
+    },
+    {
+      "name": "RubyArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 153,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_armor_boots_recipe",
+      "path": "~/Ruby"
+    },
+    {
+      "name": "Sapphire",
+      "type": "item",
+      "sortid": 154,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sapphire",
+      "path": "~/Sapphire"
+    },
+    {
+      "name": "SapphireOre",
+      "type": "block",
+      "sortid": 155,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sapphire_ore",
+      "path": "~/Sapphire"
+    },
+    {
+      "name": "SapphireBlock",
+      "type": "block",
+      "sortid": 156,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sapphire_block",
+      "path": "~/Sapphire"
+    },
+    {
+      "name": "SapphireOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 157,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sapphire_ore_block_recipe",
+      "path": "~/Sapphire"
+    },
+    {
+      "name": "SapphireBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 158,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sapphire_block_ore_recipe",
+      "path": "~/Sapphire"
+    },
+    {
+      "name": "SapphireOreSmelting",
+      "type": "recipe",
+      "sortid": 159,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sapphire_ore_smelting",
+      "path": "~/Sapphire"
+    },
+    {
+      "name": "SapphirePickaxe",
+      "type": "tool",
+      "sortid": 160,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sapphire_pickaxe",
+      "path": "~/Sapphire"
+    },
+    {
+      "name": "SapphireAxe",
+      "type": "tool",
+      "sortid": 161,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sapphire_axe",
+      "path": "~/Sapphire"
+    },
+    {
+      "name": "SapphireSword",
+      "type": "tool",
+      "sortid": 162,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sapphire_sword",
+      "path": "~/Sapphire"
+    },
+    {
+      "name": "SapphireShovel",
+      "type": "tool",
+      "sortid": 163,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sapphire_shovel",
+      "path": "~/Sapphire"
+    },
+    {
+      "name": "SapphireHoe",
+      "type": "tool",
+      "sortid": 164,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sapphire_hoe",
+      "path": "~/Sapphire"
+    },
+    {
+      "name": "SapphirePickaxeRecipe",
+      "type": "recipe",
+      "sortid": 165,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sapphire_pickaxe_recipe",
+      "path": "~/Sapphire"
+    },
+    {
+      "name": "SapphireAxeRecipe",
+      "type": "recipe",
+      "sortid": 166,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sapphire_axe_recipe",
+      "path": "~/Sapphire"
+    },
+    {
+      "name": "SapphireSwordRecipe",
+      "type": "recipe",
+      "sortid": 167,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sapphire_sword_recipe",
+      "path": "~/Sapphire"
+    },
+    {
+      "name": "SapphireShovelRecipe",
+      "type": "recipe",
+      "sortid": 168,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sapphire_shovel_recipe",
+      "path": "~/Sapphire"
+    },
+    {
+      "name": "SapphireHoeRecipe",
+      "type": "recipe",
+      "sortid": 169,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sapphire_hoe_recipe",
+      "path": "~/Sapphire"
+    },
+    {
+      "name": "SapphireArmor",
+      "type": "armor",
+      "sortid": 170,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sapphire_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      },
+      "path": "~/Sapphire"
+    },
+    {
+      "name": "SapphireArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 171,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sapphire_armor_helmet_recipe",
+      "path": "~/Sapphire"
+    },
+    {
+      "name": "SapphireArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 172,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sapphire_armor_body_recipe",
+      "path": "~/Sapphire"
+    },
+    {
+      "name": "SapphireArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 173,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sapphire_armor_leggings_recipe",
+      "path": "~/Sapphire"
+    },
+    {
+      "name": "SapphireArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 174,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sapphire_armor_boots_recipe",
+      "path": "~/Sapphire"
+    },
+    {
+      "name": "RubyArmorHelmetTickEvent",
+      "type": "procedure",
+      "sortid": 175,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_armor_helmet_tick_event",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Ruby"
+    },
+    {
+      "name": "EffectsSapphire",
+      "type": "procedure",
+      "sortid": 176,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "effects_sapphire",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Sapphire"
+    },
+    {
+      "name": "Necronite",
+      "type": "item",
+      "sortid": 177,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "necronite",
+      "path": "~/Necronite"
+    },
+    {
+      "name": "NecroniteOre",
+      "type": "block",
+      "sortid": 178,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "necronite_ore",
+      "path": "~/Necronite"
+    },
+    {
+      "name": "NecroniteBlock",
+      "type": "block",
+      "sortid": 179,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "necronite_block",
+      "path": "~/Necronite"
+    },
+    {
+      "name": "NecroniteOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 180,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "necronite_ore_block_recipe",
+      "path": "~/Necronite"
+    },
+    {
+      "name": "NecroniteBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 181,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "necronite_block_ore_recipe",
+      "path": "~/Necronite"
+    },
+    {
+      "name": "NecroniteOreSmelting",
+      "type": "recipe",
+      "sortid": 182,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "necronite_ore_smelting",
+      "path": "~/Necronite"
+    },
+    {
+      "name": "NecronitePickaxe",
+      "type": "tool",
+      "sortid": 183,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "necronite_pickaxe",
+      "path": "~/Necronite"
+    },
+    {
+      "name": "NecroniteAxe",
+      "type": "tool",
+      "sortid": 184,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "necronite_axe",
+      "path": "~/Necronite"
+    },
+    {
+      "name": "NecroniteSword",
+      "type": "tool",
+      "sortid": 185,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "necronite_sword",
+      "path": "~/Necronite"
+    },
+    {
+      "name": "NecroniteShovel",
+      "type": "tool",
+      "sortid": 186,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "necronite_shovel",
+      "path": "~/Necronite"
+    },
+    {
+      "name": "NecroniteHoe",
+      "type": "tool",
+      "sortid": 187,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "necronite_hoe",
+      "path": "~/Necronite"
+    },
+    {
+      "name": "NecronitePickaxeRecipe",
+      "type": "recipe",
+      "sortid": 188,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "necronite_pickaxe_recipe",
+      "path": "~/Necronite"
+    },
+    {
+      "name": "NecroniteAxeRecipe",
+      "type": "recipe",
+      "sortid": 189,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "necronite_axe_recipe",
+      "path": "~/Necronite"
+    },
+    {
+      "name": "NecroniteSwordRecipe",
+      "type": "recipe",
+      "sortid": 190,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "necronite_sword_recipe",
+      "path": "~/Necronite"
+    },
+    {
+      "name": "NecroniteShovelRecipe",
+      "type": "recipe",
+      "sortid": 191,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "necronite_shovel_recipe",
+      "path": "~/Necronite"
+    },
+    {
+      "name": "NecroniteHoeRecipe",
+      "type": "recipe",
+      "sortid": 192,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "necronite_hoe_recipe",
+      "path": "~/Necronite"
+    },
+    {
+      "name": "NecroniteArmor",
+      "type": "armor",
+      "sortid": 193,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "necronite_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      },
+      "path": "~/Necronite"
+    },
+    {
+      "name": "NecroniteArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 194,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "necronite_armor_helmet_recipe",
+      "path": "~/Necronite"
+    },
+    {
+      "name": "NecroniteArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 195,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "necronite_armor_body_recipe",
+      "path": "~/Necronite"
+    },
+    {
+      "name": "NecroniteArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 196,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "necronite_armor_leggings_recipe",
+      "path": "~/Necronite"
+    },
+    {
+      "name": "NecroniteArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 197,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "necronite_armor_boots_recipe",
+      "path": "~/Necronite"
+    },
+    {
+      "name": "Necroniteeffects",
+      "type": "procedure",
+      "sortid": 198,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "necroniteeffects",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Sapphire"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "advancements.ant_advancement.title": "Ants",
+      "item.monkeania.necronite": "Necronite",
+      "item.monkeania.bone_sword": "Bone Sword",
+      "entity.monkeania.ant": "Ant",
+      "item.monkeania.ruby_shovel": "Ruby Shovel",
+      "item.monkeania.black_bone": "Black Bone",
+      "block.monkeania.ruby_block": "Block of Ruby",
+      "entity.monkeania.one_leg_spider": "One Leg Spider",
+      "item.monkeania.spider_armor_leggings": "Spider Leggings",
+      "item.monkeania.necronite_pickaxe": "Necronite Pickaxe",
+      "item.monkeania.plastic_hoe": "Plastic Hoe",
+      "item.monkeania.spider_armor_boots": "Spider Boots",
+      "item.monkeania.ruby_armor_leggings": "Ruby Leggings",
+      "item.monkeania.sapphire_hoe": "Sapphire Hoe",
+      "block.monkeania.sky_leaf": "Sky Leaf",
+      "item.monkeania.fly_item": "Fly",
+      "block.monkeania.scoria": "Scoria",
+      "item.monkeania.skyder_spawn_egg": "Skyder Spawn Egg",
+      "item.monkeania.plastic_armor_helmet": "Plastic Helmet",
+      "block.monkeania.ruby_ore": "Ruby Ore",
+      "item.monkeania.blood": "Blood",
+      "item.monkeania.sapphire_armor_helmet": "Sapphire Helmet",
+      "entity.monkeania.butterfly": "Butterfly",
+      "item.monkeania.plastic_pickaxe": "Plastic Pickaxe",
+      "item.monkeania.spider_leg": "Spider Leg",
+      "item.monkeania.trichina_spawn_egg": "Trichina Spawn Egg",
+      "item.monkeania.necronite_armor_helmet": "Necronite Helmet",
+      "item.monkeania.abyssius_spawn_egg": "Abyssius Spawn Egg",
+      "item.monkeania.cooked_zebra_meat": "Cooked Zebra Meat",
+      "advancements.its_golden.title": "Its Golden?",
+      "item.monkeania.spider_armor_chestplate": "Spider Chestplate",
+      "item.monkeania.plastic_armor_leggings": "Plastic Leggings",
+      "block.monkeania.travertine": "Travertine",
+      "item.monkeania.ruby_armor_boots": "Ruby Boots",
+      "item.monkeania.sapphire_shovel": "Sapphire Shovel",
+      "advancements.combine_the_worms.title": "Combine The Worms",
+      "advancements.power_of_the_earth.title": "Power Of The Earth",
+      "item.monkeania.fly_spawn_egg": "Fly Spawn Egg",
+      "item.monkeania.plastic_armor_chestplate": "Plastic Chestplate",
+      "item.monkeania.plastic_sword": "Plastic Sword",
+      "item.monkeania.nugaxe": "Nuggaxe",
+      "advancements.slaughter.descr": "Kill Abyssius",
+      "advancements.power_of_the_earth.descr": "Make a dirt sword",
+      "item.monkeania.worm_spawn_egg": "Worm Spawn Egg",
+      "item.monkeania.one_leg_spider_spawn_egg": "One Leg Spider Spawn Egg",
+      "advancements.bugs.descr": "Kill a worm",
+      "entity.monkeania.zebra": "Zebra",
+      "item.monkeania.fries": "Fries",
+      "advancements.bugs.title": "Bugs",
+      "item.monkeania.butterfly_spawn_egg": "Butterfly Spawn Egg",
+      "item.monkeania.necronite_armor_leggings": "Necronite Leggings",
+      "entity.monkeania.burnt_slime": "Burnt Slime",
+      "advancements.hell_on_earth.title": "Hell On Earth",
+      "item.monkeania.ashes": "Ashes",
+      "item.monkeania.necronite_hoe": "Necronite Hoe",
+      "item.monkeania.ruby_sword": "Ruby Sword",
+      "advancements.ant_advancement.descr": "Kill an ant",
+      "item.monkeania.arachna_spawn_egg": "Arachna Spawn Egg",
+      "advancements.butteflies.descr": "Kill a butterfly",
+      "item.monkeania.plastic_armor_boots": "Plastic Boots",
+      "item.monkeania.worm_item": "Worm",
+      "item.monkeania.zebra_spawn_egg": "Zebra Spawn Egg",
+      "advancements.its_golden.descr": "Kill a golden worm",
+      "item.monkeania.ruby_pickaxe": "Ruby Pickaxe",
+      "entity.monkeania.abyssius": "Abyssius",
+      "item.monkeania.necronite_axe": "Necronite Axe",
+      "advancements.hell_on_earth.descr": "Enter The Carmine Forest",
+      "item.monkeania.ruby_armor_helmet": "Ruby Helmet",
+      "item.monkeania.necronite_shovel": "Necronite Shovel",
+      "entity.monkeania.burnt_slime_attack": "Enraged Burnt Slime",
+      "item.monkeania.plastic_shovel": "Plastic Shovel",
+      "item.monkeania.golden_worm_entity_spawn_egg": "Golden Worm Spawn Egg",
+      "item.monkeania.sapphire": "Sapphire",
+      "block.monkeania.sapphire_ore": "Sapphire Ore",
+      "entity.monkeania.arachna": "Arachna",
+      "item.monkeania.worm_blade": "Worm Blade",
+      "entity.monkeania.golden_worm_entity": "Golden Worm",
+      "block.monkeania.carmine_flower": "Carmine Flower",
+      "item.monkeania.necronite_armor_boots": "Necronite Boots",
+      "item.monkeania.ant_spawn_egg": "Ant Spawn Egg",
+      "block.monkeania.plastic_block": "Block of Plastic",
+      "item.monkeania.ant_item": "Ant",
+      "advancements.creep_defeated.descr": "Kill Uncle Joe",
+      "advancements.flyyyy.descr": "Kill a fly",
+      "item.monkeania.ruby": "Ruby",
+      "entity.monkeania.fly": "Fly",
+      "item.monkeania.dirt_sword": "Dirt Sword",
+      "item.monkeania.burnt_slime_attack_spawn_egg": "Enraged Burnt Slime Spawn Egg",
+      "advancements.butteflies.title": "Butterflies!",
+      "item.monkeania.sapphire_pickaxe": "Sapphire Pickaxe",
+      "entity.monkeania.skyder": "Skyder",
+      "item.monkeania.chicken_nugget": "Chicken Nugget",
+      "block.monkeania.plastic_ore": "Plastic Ore",
+      "advancements.slaughter.title": "Slaughter",
+      "advancements.spider_slayer.descr": "Kill Arachna",
+      "item.monkeania.spider_armor_helmet": "Spider Helmet",
+      "item.monkeania.plastic_axe": "Plastic Axe",
+      "item.monkeania.burnt_slime_spawn_egg": "Burnt Slime Spawn Egg",
+      "item.monkeania.sapphire_axe": "Sapphire Axe",
+      "item.monkeania.butterflyitem": "Butterfly",
+      "item.monkeania.sapphire_armor_leggings": "Sapphire Leggings",
+      "item.monkeania.ruby_hoe": "Ruby Hoe",
+      "block.monkeania.necronite_block": "Block of Necronite",
+      "item.monkeania.uncle_joe_spawn_egg": "Uncle Joe Spawn Egg",
+      "advancements.spider_slayer.title": "The Spider Slayer",
+      "item.monkeania.sapphire_armor_boots": "Sapphire Boots",
+      "item.monkeania.golden_worm": "Golden Worm",
+      "item.monkeania.raw_zebrameat": "Raw Zebrameat",
+      "item.monkeania.ruby_axe": "Ruby Axe",
+      "entity.monkeania.uncle_joe": "Uncle Joe",
+      "item.monkeania.spider_skin": "Spider Skin",
+      "block.monkeania.sapphire_block": "Block of Sapphire",
+      "entity.monkeania.worm": "Worm",
+      "advancements.flyyyy.title": "Flyyyy",
+      "item.monkeania.ruby_armor_chestplate": "Ruby Chestplate",
+      "item.monkeania.sapphire_armor_chestplate": "Sapphire Chestplate",
+      "block.monkeania.necronite_ore": "Necronite Ore",
+      "item.monkeania.sapphire_sword": "Sapphire Sword",
+      "advancements.combine_the_worms.descr": "Make a Worm Blade",
+      "item.monkeania.plastic_ingot": "Plastic",
+      "item.monkeania.necronite_armor_chestplate": "Necronite Chestplate",
+      "advancements.creep_defeated.title": "Creep Defeated",
+      "entity.monkeania.trichina": "Trichina",
+      "item.monkeania.necronite_sword": "Necronite Sword"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "Plastic",
+        "children": []
+      },
+      {
+        "name": "Tags",
+        "children": []
+      },
+      {
+        "name": "SpiderArmor",
+        "children": []
+      },
+      {
+        "name": "Advancements",
+        "children": []
+      },
+      {
+        "name": "Ruby",
+        "children": []
+      },
+      {
+        "name": "Sapphire",
+        "children": []
+      },
+      {
+        "name": "Necronite",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "monkeania",
+    "modName": "Monkeania",
+    "version": "1.0.0",
+    "author": "Arxar, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.18.2",
+    "modElementsPackage": "net.mcreator.monkeania",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202200234517
+}

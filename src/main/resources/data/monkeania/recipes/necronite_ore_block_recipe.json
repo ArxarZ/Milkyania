@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "monkeania:necronite"
+    },
+    "1": {
+      "item": "monkeania:necronite"
+    },
+    "2": {
+      "item": "monkeania:necronite"
+    },
+    "3": {
+      "item": "monkeania:necronite"
+    },
+    "4": {
+      "item": "monkeania:necronite"
+    },
+    "5": {
+      "item": "monkeania:necronite"
+    },
+    "6": {
+      "item": "monkeania:necronite"
+    },
+    "7": {
+      "item": "monkeania:necronite"
+    },
+    "8": {
+      "item": "monkeania:necronite"
+    }
+  },
+  "result": {
+    "item": "monkeania:necronite_block",
+    "count": 1
+  }
+}

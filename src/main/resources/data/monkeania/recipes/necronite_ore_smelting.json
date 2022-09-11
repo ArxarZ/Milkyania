@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "experience": 0.84,
+  "cookingtime": 200,
+  "ingredient": {
+    "item": "monkeania:necronite_ore"
+  },
+  "result": "monkeania:necronite"
+}

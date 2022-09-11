@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "monkeania:ruby"
+    },
+    "2": {
+      "item": "monkeania:ruby"
+    },
+    "3": {
+      "item": "monkeania:ruby"
+    },
+    "4": {
+      "item": "monkeania:ruby"
+    },
+    "5": {
+      "item": "monkeania:ruby"
+    },
+    "6": {
+      "item": "monkeania:ruby"
+    },
+    "7": {
+      "item": "monkeania:ruby"
+    },
+    "8": {
+      "item": "monkeania:ruby"
+    }
+  },
+  "result": {
+    "item": "monkeania:ruby_armor_chestplate",
+    "count": 1
+  }
+}

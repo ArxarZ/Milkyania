@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "item": "monkeania:worm_blade"
+    },
+    "title": {
+      "translate": "advancements.combine_the_worms.title"
+    },
+    "description": {
+      "translate": "advancements.combine_the_worms.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "combine_the_worms": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "monkeania:worm_blade"
+            ],
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "monkeania:bugs"
+}

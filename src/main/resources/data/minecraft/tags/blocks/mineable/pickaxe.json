@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "monkeania:plastic_ore",
+    "monkeania:plastic_block",
+    "monkeania:ruby_ore",
+    "monkeania:ruby_block",
+    "monkeania:sapphire_ore",
+    "monkeania:sapphire_block",
+    "monkeania:necronite_ore",
+    "monkeania:necronite_block"
+  ]
+}

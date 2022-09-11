@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "item": "monkeania:spider_leg"
+    },
+    "title": {
+      "translate": "advancements.spider_slayer.title"
+    },
+    "description": {
+      "translate": "advancements.spider_slayer.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "spider_slayer": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "monkeania:spider_leg"
+            ],
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "monkeania:creep_defeated"
+}
