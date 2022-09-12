@@ -101,7 +101,7 @@ public class SkyderEntity extends Monster {
 			public void start() {
 				LivingEntity livingentity = SkyderEntity.this.getTarget();
 				Vec3 vec3d = livingentity.getEyePosition(1);
-				SkyderEntity.this.moveControl.setWantedPosition(vec3d.x, vec3d.y, vec3d.z, 1);
+				SkyderEntity.this.moveControl.setWantedPosition(vec3d.x, vec3d.y, vec3d.z, 2);
 			}
 
 			@Override
@@ -113,12 +113,12 @@ public class SkyderEntity extends Monster {
 					double d0 = SkyderEntity.this.distanceToSqr(livingentity);
 					if (d0 < 16) {
 						Vec3 vec3d = livingentity.getEyePosition(1);
-						SkyderEntity.this.moveControl.setWantedPosition(vec3d.x, vec3d.y, vec3d.z, 1);
+						SkyderEntity.this.moveControl.setWantedPosition(vec3d.x, vec3d.y, vec3d.z, 2);
 					}
 				}
 			}
 		});
-		this.goalSelector.addGoal(2, new RandomStrollGoal(this, 0.8, 20) {
+		this.goalSelector.addGoal(2, new RandomStrollGoal(this, 1, 20) {
 			@Override
 			protected Vec3 getPosition() {
 				Random random = SkyderEntity.this.getRandom();
@@ -187,12 +187,12 @@ public class SkyderEntity extends Monster {
 
 	public static AttributeSupplier.Builder createAttributes() {
 		AttributeSupplier.Builder builder = Mob.createMobAttributes();
-		builder = builder.add(Attributes.MOVEMENT_SPEED, 0.3);
+		builder = builder.add(Attributes.MOVEMENT_SPEED, 0.4);
 		builder = builder.add(Attributes.MAX_HEALTH, 5);
 		builder = builder.add(Attributes.ARMOR, 0);
 		builder = builder.add(Attributes.ATTACK_DAMAGE, 1);
 		builder = builder.add(Attributes.FOLLOW_RANGE, 16);
-		builder = builder.add(Attributes.FLYING_SPEED, 0.3);
+		builder = builder.add(Attributes.FLYING_SPEED, 0.4);
 		return builder;
 	}
 }

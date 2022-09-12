@@ -15,6 +15,6 @@ public class BurntSlimeRenderer extends MobRenderer<BurntSlimeEntity, Modelburnt
 
 	@Override
 	public ResourceLocation getTextureLocation(BurntSlimeEntity entity) {
-		return new ResourceLocation("monkeania:textures/entities/burntslime.png");
+		return new ResourceLocation("monkeania:textures/entities/burntslimetexture.png");
 	}
 }

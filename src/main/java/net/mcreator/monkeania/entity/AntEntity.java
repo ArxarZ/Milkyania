@@ -17,9 +17,8 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.entity.animal.Animal;
 import net.minecraft.world.entity.ai.goal.RandomStrollGoal;
 import net.minecraft.world.entity.ai.goal.RandomLookAroundGoal;
-import net.minecraft.world.entity.ai.goal.PanicGoal;
-import net.minecraft.world.entity.ai.goal.FollowParentGoal;
-import net.minecraft.world.entity.ai.goal.BreedGoal;
+import net.minecraft.world.entity.ai.goal.LeapAtTargetGoal;
+import net.minecraft.world.entity.ai.goal.FloatGoal;
 import net.minecraft.world.entity.ai.attributes.Attributes;
 import net.minecraft.world.entity.ai.attributes.AttributeSupplier;
 import net.minecraft.world.entity.SpawnPlacements;
@@ -65,11 +64,10 @@ public class AntEntity extends Animal {
 	@Override
 	protected void registerGoals() {
 		super.registerGoals();
-		this.goalSelector.addGoal(1, new RandomStrollGoal(this, 0.1));
+		this.goalSelector.addGoal(1, new RandomStrollGoal(this, 1));
 		this.goalSelector.addGoal(2, new RandomLookAroundGoal(this));
-		this.goalSelector.addGoal(3, new BreedGoal(this, 1));
-		this.goalSelector.addGoal(4, new FollowParentGoal(this, 0.1));
-		this.goalSelector.addGoal(5, new PanicGoal(this, 0.1));
+		this.goalSelector.addGoal(3, new FloatGoal(this));
+		this.goalSelector.addGoal(4, new LeapAtTargetGoal(this, (float) 0.5));
 	}
 
 	@Override
@@ -101,7 +99,7 @@ public class AntEntity extends Animal {
 
 	@Override
 	public boolean isFood(ItemStack stack) {
-		return List.of(MonkeaniaModItems.WORM_ITEM.get()).contains(stack.getItem());
+		return List.of(MonkeaniaModItems.ANT_ITEM.get()).contains(stack.getItem());
 	}
 
 	public static void init() {

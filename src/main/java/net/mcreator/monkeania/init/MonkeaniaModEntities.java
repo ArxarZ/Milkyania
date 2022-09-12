@@ -104,7 +104,7 @@ public class MonkeaniaModEntities {
 			EntityType.Builder.<TrichinaEntity>of(TrichinaEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64)
 					.setUpdateInterval(3).setCustomClientFactory(TrichinaEntity::new)
 
-					.sized(3f, 2.5f));
+					.sized(2f, 2f));
 
 	private static <T extends Entity> RegistryObject<EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		return REGISTRY.register(registryname, () -> (EntityType<T>) entityTypeBuilder.build(registryname));

@@ -5,7 +5,7 @@
     "mobName": "Enraged Burnt Slime",
     "mobLabel": "",
     "mobModelName": "Modelburntslime",
-    "mobModelTexture": "burntslimeattack.png",
+    "mobModelTexture": "burntslimeenragedtexture.png",
     "mobModelGlowTexture": "",
     "modelWidth": 0.4,
     "modelHeight": 1.0,

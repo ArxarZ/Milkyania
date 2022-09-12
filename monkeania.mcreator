@@ -565,15 +565,6 @@
       "registry_name": "fly"
     },
     {
-      "name": "SpiderSlayer",
-      "type": "achievement",
-      "sortid": 117,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "spider_slayer",
-      "path": "~/Advancements"
-    },
-    {
       "name": "Flyyyy",
       "type": "achievement",
       "sortid": 118,
@@ -1478,7 +1469,6 @@
       "item.monkeania.chicken_nugget": "Chicken Nugget",
       "block.monkeania.plastic_ore": "Plastic Ore",
       "advancements.slaughter.title": "Slaughter",
-      "advancements.spider_slayer.descr": "Kill Arachna",
       "item.monkeania.spider_armor_helmet": "Spider Helmet",
       "item.monkeania.plastic_axe": "Plastic Axe",
       "item.monkeania.burnt_slime_spawn_egg": "Burnt Slime Spawn Egg",
@@ -1488,7 +1478,6 @@
       "item.monkeania.ruby_hoe": "Ruby Hoe",
       "block.monkeania.necronite_block": "Block of Necronite",
       "item.monkeania.uncle_joe_spawn_egg": "Uncle Joe Spawn Egg",
-      "advancements.spider_slayer.title": "The Spider Slayer",
       "item.monkeania.sapphire_armor_boots": "Sapphire Boots",
       "item.monkeania.golden_worm": "Golden Worm",
       "item.monkeania.raw_zebrameat": "Raw Zebrameat",

@@ -5,7 +5,7 @@
     "mobName": "Burnt Slime",
     "mobLabel": "",
     "mobModelName": "Modelburntslime",
-    "mobModelTexture": "burntslime.png",
+    "mobModelTexture": "burntslimetexture.png",
     "mobModelGlowTexture": "",
     "modelWidth": 0.4,
     "modelHeight": 1.0,
