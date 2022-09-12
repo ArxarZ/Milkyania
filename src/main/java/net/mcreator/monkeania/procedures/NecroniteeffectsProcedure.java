@@ -22,13 +22,13 @@ public class NecroniteeffectsProcedure {
 					if ((entity instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.FEET) : ItemStack.EMPTY)
 							.getItem() == MonkeaniaModItems.NECRONITE_ARMOR_BOOTS.get()) {
 						if (entity instanceof LivingEntity _entity)
-							_entity.addEffect(new MobEffectInstance(MobEffects.UNLUCK, 1080000, 1));
+							_entity.addEffect(new MobEffectInstance(MobEffects.UNLUCK, 1, 1));
 						if (entity instanceof LivingEntity _entity)
-							_entity.addEffect(new MobEffectInstance(MobEffects.DIG_SLOWDOWN, 1080000, 1));
+							_entity.addEffect(new MobEffectInstance(MobEffects.DIG_SLOWDOWN, 1, 1));
 						if (entity instanceof LivingEntity _entity)
-							_entity.addEffect(new MobEffectInstance(MobEffects.FIRE_RESISTANCE, 1080000, 1));
+							_entity.addEffect(new MobEffectInstance(MobEffects.FIRE_RESISTANCE, 1, 1));
 						if (entity instanceof LivingEntity _entity)
-							_entity.addEffect(new MobEffectInstance(MobEffects.HEALTH_BOOST, 1080000, 1));
+							_entity.addEffect(new MobEffectInstance(MobEffects.HEALTH_BOOST, 1, 1));
 					} else {
 						return true;
 					}

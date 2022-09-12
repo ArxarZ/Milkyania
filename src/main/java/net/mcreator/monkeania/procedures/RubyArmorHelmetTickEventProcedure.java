@@ -22,7 +22,7 @@ public class RubyArmorHelmetTickEventProcedure {
 					if ((entity instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.FEET) : ItemStack.EMPTY)
 							.getItem() == MonkeaniaModItems.RUBY_ARMOR_BOOTS.get()) {
 						if (entity instanceof LivingEntity _entity)
-							_entity.addEffect(new MobEffectInstance(MobEffects.DIG_SPEED, 1080000, 1));
+							_entity.addEffect(new MobEffectInstance(MobEffects.DIG_SPEED, 1, 1));
 					} else {
 						return true;
 					}

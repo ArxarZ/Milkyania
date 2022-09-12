@@ -22,9 +22,9 @@ public class EffectsSapphireProcedure {
 					if ((entity instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.FEET) : ItemStack.EMPTY)
 							.getItem() == MonkeaniaModItems.SAPPHIRE_ARMOR_BOOTS.get()) {
 						if (entity instanceof LivingEntity _entity)
-							_entity.addEffect(new MobEffectInstance(MobEffects.JUMP, 1080000, 1));
+							_entity.addEffect(new MobEffectInstance(MobEffects.JUMP, 1, 1));
 						if (entity instanceof LivingEntity _entity)
-							_entity.addEffect(new MobEffectInstance(MobEffects.SLOW_FALLING, 1080000, 1));
+							_entity.addEffect(new MobEffectInstance(MobEffects.SLOW_FALLING, 1, 1));
 					} else {
 						return true;
 					}

@@ -22,7 +22,7 @@ public class DirtArmorHelmetTickEventProcedure {
 					if ((entity instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.FEET) : ItemStack.EMPTY)
 							.getItem() == MonkeaniaModItems.DIRT_ARMOR_BOOTS.get()) {
 						if (entity instanceof LivingEntity _entity)
-							_entity.addEffect(new MobEffectInstance(MobEffects.MOVEMENT_SLOWDOWN, 1080000, 1));
+							_entity.addEffect(new MobEffectInstance(MobEffects.MOVEMENT_SLOWDOWN, 1, 1));
 					} else {
 						return true;
 					}
