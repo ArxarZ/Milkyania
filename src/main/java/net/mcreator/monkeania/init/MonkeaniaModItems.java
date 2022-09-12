@@ -52,6 +52,7 @@ import net.mcreator.monkeania.item.NecroniteArmorItem;
 import net.mcreator.monkeania.item.GoldenWormItem;
 import net.mcreator.monkeania.item.FriesItem;
 import net.mcreator.monkeania.item.FlyItemItem;
+import net.mcreator.monkeania.item.EdibleRockItem;
 import net.mcreator.monkeania.item.DirtSwordItem;
 import net.mcreator.monkeania.item.DirtArmorItem;
 import net.mcreator.monkeania.item.CookedZebraMeatItem;
@@ -183,6 +184,7 @@ public class MonkeaniaModItems {
 	public static final RegistryObject<Item> DIRT_ARMOR_CHESTPLATE = REGISTRY.register("dirt_armor_chestplate", () -> new DirtArmorItem.Chestplate());
 	public static final RegistryObject<Item> DIRT_ARMOR_LEGGINGS = REGISTRY.register("dirt_armor_leggings", () -> new DirtArmorItem.Leggings());
 	public static final RegistryObject<Item> DIRT_ARMOR_BOOTS = REGISTRY.register("dirt_armor_boots", () -> new DirtArmorItem.Boots());
+	public static final RegistryObject<Item> EDIBLE_ROCK = REGISTRY.register("edible_rock", () -> new EdibleRockItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));
