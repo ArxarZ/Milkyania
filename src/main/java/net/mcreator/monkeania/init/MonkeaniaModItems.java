@@ -53,6 +53,7 @@ import net.mcreator.monkeania.item.GoldenWormItem;
 import net.mcreator.monkeania.item.FriesItem;
 import net.mcreator.monkeania.item.FlyItemItem;
 import net.mcreator.monkeania.item.DirtSwordItem;
+import net.mcreator.monkeania.item.DirtArmorItem;
 import net.mcreator.monkeania.item.CookedZebraMeatItem;
 import net.mcreator.monkeania.item.ChickenNuggetItem;
 import net.mcreator.monkeania.item.ButterflyitemItem;
@@ -178,6 +179,10 @@ public class MonkeaniaModItems {
 	public static final RegistryObject<Item> NECRONITE_ARMOR_LEGGINGS = REGISTRY.register("necronite_armor_leggings",
 			() -> new NecroniteArmorItem.Leggings());
 	public static final RegistryObject<Item> NECRONITE_ARMOR_BOOTS = REGISTRY.register("necronite_armor_boots", () -> new NecroniteArmorItem.Boots());
+	public static final RegistryObject<Item> DIRT_ARMOR_HELMET = REGISTRY.register("dirt_armor_helmet", () -> new DirtArmorItem.Helmet());
+	public static final RegistryObject<Item> DIRT_ARMOR_CHESTPLATE = REGISTRY.register("dirt_armor_chestplate", () -> new DirtArmorItem.Chestplate());
+	public static final RegistryObject<Item> DIRT_ARMOR_LEGGINGS = REGISTRY.register("dirt_armor_leggings", () -> new DirtArmorItem.Leggings());
+	public static final RegistryObject<Item> DIRT_ARMOR_BOOTS = REGISTRY.register("dirt_armor_boots", () -> new DirtArmorItem.Boots());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

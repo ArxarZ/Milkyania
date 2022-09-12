@@ -20,6 +20,7 @@ import net.mcreator.monkeania.client.model.Modelbutterfly;
 import net.mcreator.monkeania.client.model.Modelburntslime;
 import net.mcreator.monkeania.client.model.Modelantmodel;
 import net.mcreator.monkeania.client.model.Modelabyssius;
+import net.mcreator.monkeania.client.model.ModelCustomArmor_spider_helmet_new;
 import net.mcreator.monkeania.client.model.ModelArachna;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = {Dist.CLIENT})
@@ -27,16 +28,17 @@ public class MonkeaniaModModels {
 	@SubscribeEvent
 	public static void registerLayerDefinitions(EntityRenderersEvent.RegisterLayerDefinitions event) {
 		event.registerLayerDefinition(Modeltrichina.LAYER_LOCATION, Modeltrichina::createBodyLayer);
-		event.registerLayerDefinition(Modelbutterfly.LAYER_LOCATION, Modelbutterfly::createBodyLayer);
-		event.registerLayerDefinition(Modelfly.LAYER_LOCATION, Modelfly::createBodyLayer);
-		event.registerLayerDefinition(Modeluncle_joe.LAYER_LOCATION, Modeluncle_joe::createBodyLayer);
 		event.registerLayerDefinition(ModelArachna.LAYER_LOCATION, ModelArachna::createBodyLayer);
 		event.registerLayerDefinition(Modelzebra.LAYER_LOCATION, Modelzebra::createBodyLayer);
 		event.registerLayerDefinition(Modelburntslime.LAYER_LOCATION, Modelburntslime::createBodyLayer);
 		event.registerLayerDefinition(Modelcustom_model.LAYER_LOCATION, Modelcustom_model::createBodyLayer);
-		event.registerLayerDefinition(Modelskyder.LAYER_LOCATION, Modelskyder::createBodyLayer);
 		event.registerLayerDefinition(Modelabyssius.LAYER_LOCATION, Modelabyssius::createBodyLayer);
-		event.registerLayerDefinition(Modelantmodel.LAYER_LOCATION, Modelantmodel::createBodyLayer);
 		event.registerLayerDefinition(Modelonelegspider.LAYER_LOCATION, Modelonelegspider::createBodyLayer);
+		event.registerLayerDefinition(Modelbutterfly.LAYER_LOCATION, Modelbutterfly::createBodyLayer);
+		event.registerLayerDefinition(Modelfly.LAYER_LOCATION, Modelfly::createBodyLayer);
+		event.registerLayerDefinition(Modeluncle_joe.LAYER_LOCATION, Modeluncle_joe::createBodyLayer);
+		event.registerLayerDefinition(ModelCustomArmor_spider_helmet_new.LAYER_LOCATION, ModelCustomArmor_spider_helmet_new::createBodyLayer);
+		event.registerLayerDefinition(Modelskyder.LAYER_LOCATION, Modelskyder::createBodyLayer);
+		event.registerLayerDefinition(Modelantmodel.LAYER_LOCATION, Modelantmodel::createBodyLayer);
 	}
 }

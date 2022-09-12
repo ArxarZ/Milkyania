@@ -1369,6 +1369,75 @@
         ]
       },
       "path": "~/SpiderArmor"
+    },
+    {
+      "name": "DirtArmor",
+      "type": "armor",
+      "sortid": 201,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dirt_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      },
+      "path": "~/Dirt Armor"
+    },
+    {
+      "name": "DirtArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 202,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dirt_armor_helmet_recipe",
+      "path": "~/Dirt Armor"
+    },
+    {
+      "name": "DirtArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 203,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dirt_armor_body_recipe",
+      "path": "~/Dirt Armor"
+    },
+    {
+      "name": "DirtArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 204,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dirt_armor_leggings_recipe",
+      "path": "~/Dirt Armor"
+    },
+    {
+      "name": "DirtArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 205,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dirt_armor_boots_recipe",
+      "path": "~/Dirt Armor"
+    },
+    {
+      "name": "DirtArmorHelmetTickEvent",
+      "type": "procedure",
+      "sortid": 206,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dirt_armor_helmet_tick_event",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Dirt Armor"
     }
   ],
   "variable_elements": [],
@@ -1380,8 +1449,8 @@
       "item.monkeania.bone_sword": "Bone Sword",
       "entity.monkeania.ant": "Ant",
       "item.monkeania.ruby_shovel": "Ruby Shovel",
-      "block.monkeania.ruby_block": "Block of Ruby",
       "item.monkeania.black_bone": "Black Bone",
+      "block.monkeania.ruby_block": "Block of Ruby",
       "entity.monkeania.one_leg_spider": "One Leg Spider",
       "item.monkeania.spider_armor_leggings": "Spider Leggings",
       "item.monkeania.necronite_pickaxe": "Necronite Pickaxe",
@@ -1399,9 +1468,9 @@
       "item.monkeania.sapphire_armor_helmet": "Sapphire Helmet",
       "entity.monkeania.butterfly": "Butterfly",
       "item.monkeania.plastic_pickaxe": "Plastic Pickaxe",
-      "item.monkeania.necronite_armor_helmet": "Necronite Helmet",
-      "item.monkeania.trichina_spawn_egg": "Trichina Spawn Egg",
       "item.monkeania.spider_leg": "Spider Leg",
+      "item.monkeania.trichina_spawn_egg": "Trichina Spawn Egg",
+      "item.monkeania.necronite_armor_helmet": "Necronite Helmet",
       "item.monkeania.abyssius_spawn_egg": "Abyssius Spawn Egg",
       "item.monkeania.cooked_zebra_meat": "Cooked Zebra Meat",
       "advancements.its_golden.title": "Its Golden?",
@@ -1409,9 +1478,10 @@
       "item.monkeania.plastic_armor_leggings": "Plastic Leggings",
       "block.monkeania.travertine": "Travertine",
       "item.monkeania.ruby_armor_boots": "Ruby Boots",
+      "item.monkeania.dirt_armor_helmet": "Dirt Helmet",
       "item.monkeania.sapphire_shovel": "Sapphire Shovel",
-      "advancements.power_of_the_earth.title": "Power Of The Earth",
       "advancements.combine_the_worms.title": "Combine The Worms",
+      "advancements.power_of_the_earth.title": "Power Of The Earth",
       "item.monkeania.fly_spawn_egg": "Fly Spawn Egg",
       "item.monkeania.plastic_armor_chestplate": "Plastic Chestplate",
       "item.monkeania.plastic_sword": "Plastic Sword",
@@ -1469,6 +1539,7 @@
       "item.monkeania.chicken_nugget": "Chicken Nugget",
       "block.monkeania.plastic_ore": "Plastic Ore",
       "advancements.slaughter.title": "Slaughter",
+      "item.monkeania.dirt_armor_chestplate": "Dirt Chestplate",
       "item.monkeania.spider_armor_helmet": "Spider Helmet",
       "item.monkeania.plastic_axe": "Plastic Axe",
       "item.monkeania.burnt_slime_spawn_egg": "Burnt Slime Spawn Egg",
@@ -1479,6 +1550,7 @@
       "block.monkeania.necronite_block": "Block of Necronite",
       "item.monkeania.uncle_joe_spawn_egg": "Uncle Joe Spawn Egg",
       "item.monkeania.sapphire_armor_boots": "Sapphire Boots",
+      "item.monkeania.dirt_armor_boots": "Dirt Boots",
       "item.monkeania.golden_worm": "Golden Worm",
       "item.monkeania.raw_zebrameat": "Raw Zebrameat",
       "item.monkeania.ruby_axe": "Ruby Axe",
@@ -1489,6 +1561,7 @@
       "advancements.flyyyy.title": "Flyyyy",
       "item.monkeania.ruby_armor_chestplate": "Ruby Chestplate",
       "item.monkeania.sapphire_armor_chestplate": "Sapphire Chestplate",
+      "item.monkeania.dirt_armor_leggings": "Dirt Leggings",
       "block.monkeania.necronite_ore": "Necronite Ore",
       "item.monkeania.sapphire_sword": "Sapphire Sword",
       "advancements.combine_the_worms.descr": "Make a Worm Blade",
@@ -1528,6 +1601,10 @@
       },
       {
         "name": "Necronite",
+        "children": []
+      },
+      {
+        "name": "Dirt Armor",
         "children": []
       }
     ]
