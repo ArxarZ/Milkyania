@@ -1,6 +1,5 @@
 package net.mcreator.monkeania.procedures;
 
-import net.minecraft.world.item.enchantment.Enchantments;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.EquipmentSlot;
@@ -11,7 +10,7 @@ import net.minecraft.world.effect.MobEffectInstance;
 import net.mcreator.monkeania.init.MonkeaniaModItems;
 
 public class SpiderArmorHelmetTickEventProcedure {
-	public static boolean execute(Entity entity, ItemStack itemstack) {
+	public static boolean execute(Entity entity) {
 		if (entity == null)
 			return false;
 		if ((entity instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.HEAD) : ItemStack.EMPTY)
@@ -24,7 +23,6 @@ public class SpiderArmorHelmetTickEventProcedure {
 							.getItem() == MonkeaniaModItems.SPIDER_ARMOR_BOOTS.get()) {
 						if (entity instanceof LivingEntity _entity)
 							_entity.addEffect(new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 1, 1));
-						(itemstack).enchant(Enchantments.THORNS, 1);
 					} else {
 						return true;
 					}

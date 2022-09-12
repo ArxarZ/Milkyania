@@ -106,7 +106,7 @@ public abstract class SpiderArmorItem extends ArmorItem {
 
 		@Override
 		public void onArmorTick(ItemStack itemstack, Level world, Player entity) {
-			SpiderArmorHelmetTickEventProcedure.execute(entity, itemstack);
+			SpiderArmorHelmetTickEventProcedure.execute(entity);
 		}
 	}
 
@@ -122,7 +122,7 @@ public abstract class SpiderArmorItem extends ArmorItem {
 
 		@Override
 		public void onArmorTick(ItemStack itemstack, Level world, Player entity) {
-			SpiderArmorHelmetTickEventProcedure.execute(entity, itemstack);
+			SpiderArmorHelmetTickEventProcedure.execute(entity);
 		}
 	}
 
@@ -138,7 +138,7 @@ public abstract class SpiderArmorItem extends ArmorItem {
 
 		@Override
 		public void onArmorTick(ItemStack itemstack, Level world, Player entity) {
-			SpiderArmorHelmetTickEventProcedure.execute(entity, itemstack);
+			SpiderArmorHelmetTickEventProcedure.execute(entity);
 		}
 	}
 
@@ -154,7 +154,7 @@ public abstract class SpiderArmorItem extends ArmorItem {
 
 		@Override
 		public void onArmorTick(ItemStack itemstack, Level world, Player entity) {
-			SpiderArmorHelmetTickEventProcedure.execute(entity, itemstack);
+			SpiderArmorHelmetTickEventProcedure.execute(entity);
 		}
 	}
 }
