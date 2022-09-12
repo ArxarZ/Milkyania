@@ -35,6 +35,6 @@ public class DirtSwordItem extends PickaxeItem {
 			public Ingredient getRepairIngredient() {
 				return Ingredient.of(new ItemStack(Blocks.DIRT));
 			}
-		}, 1, -2.2f, new Item.Properties().tab(CreativeModeTab.TAB_TOOLS));
+		}, 1, -2f, new Item.Properties().tab(CreativeModeTab.TAB_TOOLS));
 	}
 }

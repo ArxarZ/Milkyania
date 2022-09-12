@@ -18,6 +18,8 @@ import net.minecraft.world.entity.Entity;
 
 import net.mcreator.monkeania.entity.ZebraEntity;
 import net.mcreator.monkeania.entity.WormEntity;
+import net.mcreator.monkeania.entity.WhiteWitherEntityProjectile;
+import net.mcreator.monkeania.entity.WhiteWitherEntity;
 import net.mcreator.monkeania.entity.UncleJoeEntity;
 import net.mcreator.monkeania.entity.TrichinaEntity;
 import net.mcreator.monkeania.entity.SkyderEntity;
@@ -105,6 +107,15 @@ public class MonkeaniaModEntities {
 					.setUpdateInterval(3).setCustomClientFactory(TrichinaEntity::new)
 
 					.sized(2f, 2f));
+	public static final RegistryObject<EntityType<WhiteWitherEntity>> WHITE_WITHER = register("white_wither",
+			EntityType.Builder.<WhiteWitherEntity>of(WhiteWitherEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true)
+					.setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(WhiteWitherEntity::new)
+
+					.sized(1f, 1.8f));
+	public static final RegistryObject<EntityType<WhiteWitherEntityProjectile>> WHITE_WITHER_PROJECTILE = register("projectile_white_wither",
+			EntityType.Builder.<WhiteWitherEntityProjectile>of(WhiteWitherEntityProjectile::new, MobCategory.MISC)
+					.setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1)
+					.setCustomClientFactory(WhiteWitherEntityProjectile::new).sized(0.5f, 0.5f));
 
 	private static <T extends Entity> RegistryObject<EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		return REGISTRY.register(registryname, () -> (EntityType<T>) entityTypeBuilder.build(registryname));
@@ -127,6 +138,7 @@ public class MonkeaniaModEntities {
 			AbyssiusEntity.init();
 			ZebraEntity.init();
 			TrichinaEntity.init();
+			WhiteWitherEntity.init();
 		});
 	}
 
@@ -146,5 +158,6 @@ public class MonkeaniaModEntities {
 		event.put(ABYSSIUS.get(), AbyssiusEntity.createAttributes().build());
 		event.put(ZEBRA.get(), ZebraEntity.createAttributes().build());
 		event.put(TRICHINA.get(), TrichinaEntity.createAttributes().build());
+		event.put(WHITE_WITHER.get(), WhiteWitherEntity.createAttributes().build());
 	}
 }

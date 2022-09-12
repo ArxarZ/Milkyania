@@ -41,7 +41,7 @@ import net.mcreator.monkeania.init.MonkeaniaModEntities;
 public class ArachnaEntity extends Monster {
 	@SubscribeEvent
 	public static void addLivingEntityToBiomes(BiomeLoadingEvent event) {
-		event.getSpawns().getSpawner(MobCategory.MONSTER).add(new MobSpawnSettings.SpawnerData(MonkeaniaModEntities.ARACHNA.get(), 13, 1, 1));
+		event.getSpawns().getSpawner(MobCategory.MONSTER).add(new MobSpawnSettings.SpawnerData(MonkeaniaModEntities.ARACHNA.get(), 15, 1, 1));
 	}
 
 	public ArachnaEntity(PlayMessages.SpawnEntity packet, Level world) {

@@ -20,6 +20,7 @@ import net.mcreator.monkeania.client.model.Modelbutterfly;
 import net.mcreator.monkeania.client.model.Modelburntslime;
 import net.mcreator.monkeania.client.model.Modelantmodel;
 import net.mcreator.monkeania.client.model.Modelabyssius;
+import net.mcreator.monkeania.client.model.ModelWhiteWither;
 import net.mcreator.monkeania.client.model.ModelCustomArmor_spider_helmet_new;
 import net.mcreator.monkeania.client.model.ModelArachna;
 
@@ -28,6 +29,7 @@ public class MonkeaniaModModels {
 	@SubscribeEvent
 	public static void registerLayerDefinitions(EntityRenderersEvent.RegisterLayerDefinitions event) {
 		event.registerLayerDefinition(Modeltrichina.LAYER_LOCATION, Modeltrichina::createBodyLayer);
+		event.registerLayerDefinition(ModelWhiteWither.LAYER_LOCATION, ModelWhiteWither::createBodyLayer);
 		event.registerLayerDefinition(ModelArachna.LAYER_LOCATION, ModelArachna::createBodyLayer);
 		event.registerLayerDefinition(Modelzebra.LAYER_LOCATION, Modelzebra::createBodyLayer);
 		event.registerLayerDefinition(Modelburntslime.LAYER_LOCATION, Modelburntslime::createBodyLayer);
