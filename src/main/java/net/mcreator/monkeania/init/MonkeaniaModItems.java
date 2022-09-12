@@ -16,7 +16,6 @@ import net.minecraft.world.item.BlockItem;
 
 import net.mcreator.monkeania.item.WormItemItem;
 import net.mcreator.monkeania.item.WormBladeItem;
-import net.mcreator.monkeania.item.WitherMeatItem;
 import net.mcreator.monkeania.item.SpiderSkinItem;
 import net.mcreator.monkeania.item.SpiderLegItem;
 import net.mcreator.monkeania.item.SpiderArmorItem;
@@ -184,9 +183,6 @@ public class MonkeaniaModItems {
 	public static final RegistryObject<Item> DIRT_ARMOR_CHESTPLATE = REGISTRY.register("dirt_armor_chestplate", () -> new DirtArmorItem.Chestplate());
 	public static final RegistryObject<Item> DIRT_ARMOR_LEGGINGS = REGISTRY.register("dirt_armor_leggings", () -> new DirtArmorItem.Leggings());
 	public static final RegistryObject<Item> DIRT_ARMOR_BOOTS = REGISTRY.register("dirt_armor_boots", () -> new DirtArmorItem.Boots());
-	public static final RegistryObject<Item> WITHER_MEAT = REGISTRY.register("wither_meat", () -> new WitherMeatItem());
-	public static final RegistryObject<Item> WHITE_WITHER = REGISTRY.register("white_wither_spawn_egg",
-			() -> new ForgeSpawnEggItem(MonkeaniaModEntities.WHITE_WITHER, -1, -10066330, new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

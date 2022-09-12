@@ -25,7 +25,6 @@ import net.mcreator.monkeania.world.features.ores.SapphireOreFeature;
 import net.mcreator.monkeania.world.features.ores.RubyOreFeature;
 import net.mcreator.monkeania.world.features.ores.PlasticOreFeature;
 import net.mcreator.monkeania.world.features.ores.NecroniteOreFeature;
-import net.mcreator.monkeania.world.features.TheMazeFeature;
 import net.mcreator.monkeania.world.features.ScoriaRockUndergroundFeature;
 import net.mcreator.monkeania.world.features.ScoriaRockFeature;
 import net.mcreator.monkeania.MonkeaniaMod;
@@ -60,8 +59,6 @@ public class MonkeaniaModFeatures {
 			GenerationStep.Decoration.UNDERGROUND_ORES, SapphireOreFeature.GENERATE_BIOMES, SapphireOreFeature::placedFeature));
 	public static final RegistryObject<Feature<?>> NECRONITE_ORE = register("necronite_ore", NecroniteOreFeature::feature, new FeatureRegistration(
 			GenerationStep.Decoration.UNDERGROUND_ORES, NecroniteOreFeature.GENERATE_BIOMES, NecroniteOreFeature::placedFeature));
-	public static final RegistryObject<Feature<?>> THE_MAZE = register("the_maze", TheMazeFeature::feature,
-			new FeatureRegistration(GenerationStep.Decoration.SURFACE_STRUCTURES, TheMazeFeature.GENERATE_BIOMES, TheMazeFeature::placedFeature));
 
 	private static RegistryObject<Feature<?>> register(String registryname, Supplier<Feature<?>> feature, FeatureRegistration featureRegistration) {
 		FEATURE_REGISTRATIONS.add(featureRegistration);

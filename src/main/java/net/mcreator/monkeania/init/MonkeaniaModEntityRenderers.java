@@ -9,11 +9,8 @@ import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.client.event.EntityRenderersEvent;
 import net.minecraftforge.api.distmarker.Dist;
 
-import net.minecraft.client.renderer.entity.ThrownItemRenderer;
-
 import net.mcreator.monkeania.client.renderer.ZebraRenderer;
 import net.mcreator.monkeania.client.renderer.WormRenderer;
-import net.mcreator.monkeania.client.renderer.WhiteWitherRenderer;
 import net.mcreator.monkeania.client.renderer.UncleJoeRenderer;
 import net.mcreator.monkeania.client.renderer.TrichinaRenderer;
 import net.mcreator.monkeania.client.renderer.SkyderRenderer;
@@ -45,7 +42,5 @@ public class MonkeaniaModEntityRenderers {
 		event.registerEntityRenderer(MonkeaniaModEntities.ABYSSIUS.get(), AbyssiusRenderer::new);
 		event.registerEntityRenderer(MonkeaniaModEntities.ZEBRA.get(), ZebraRenderer::new);
 		event.registerEntityRenderer(MonkeaniaModEntities.TRICHINA.get(), TrichinaRenderer::new);
-		event.registerEntityRenderer(MonkeaniaModEntities.WHITE_WITHER.get(), WhiteWitherRenderer::new);
-		event.registerEntityRenderer(MonkeaniaModEntities.WHITE_WITHER_PROJECTILE.get(), ThrownItemRenderer::new);
 	}
 }

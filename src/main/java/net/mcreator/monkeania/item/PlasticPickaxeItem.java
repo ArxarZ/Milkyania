@@ -18,7 +18,7 @@ public class PlasticPickaxeItem extends PickaxeItem {
 			}
 
 			public float getSpeed() {
-				return 5f;
+				return 4f;
 			}
 
 			public float getAttackDamageBonus() {

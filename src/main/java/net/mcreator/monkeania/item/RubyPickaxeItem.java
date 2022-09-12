@@ -18,7 +18,7 @@ public class RubyPickaxeItem extends PickaxeItem {
 			}
 
 			public float getSpeed() {
-				return 6f;
+				return 5f;
 			}
 
 			public float getAttackDamageBonus() {

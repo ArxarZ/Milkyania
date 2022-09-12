@@ -1345,14 +1345,6 @@
       "path": "~/Sapphire"
     },
     {
-      "name": "TheMaze",
-      "type": "structure",
-      "sortid": 199,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "the_maze"
-    },
-    {
       "name": "SpiderArmorHelmetTickEvent",
       "type": "procedure",
       "sortid": 200,
@@ -1438,22 +1430,6 @@
         ]
       },
       "path": "~/Dirt Armor"
-    },
-    {
-      "name": "WitherMeat",
-      "type": "item",
-      "sortid": 207,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "wither_meat"
-    },
-    {
-      "name": "WhiteWither",
-      "type": "livingentity",
-      "sortid": 207,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "white_wither"
     }
   ],
   "variable_elements": [],
@@ -1488,7 +1464,6 @@
       "item.monkeania.trichina_spawn_egg": "Trichina Spawn Egg",
       "item.monkeania.spider_leg": "Spider Leg",
       "item.monkeania.abyssius_spawn_egg": "Abyssius Spawn Egg",
-      "entity.monkeania.white_wither": "White Wither",
       "item.monkeania.cooked_zebra_meat": "Cooked Zebra Meat",
       "advancements.its_golden.title": "Its Golden?",
       "item.monkeania.spider_armor_chestplate": "Spider Chestplate",
@@ -1536,7 +1511,6 @@
       "item.monkeania.golden_worm_entity_spawn_egg": "Golden Worm Spawn Egg",
       "item.monkeania.sapphire": "Sapphire",
       "block.monkeania.sapphire_ore": "Sapphire Ore",
-      "item.monkeania.white_wither_spawn_egg": "White Wither Spawn Egg",
       "entity.monkeania.arachna": "Arachna",
       "item.monkeania.worm_blade": "Worm Blade",
       "entity.monkeania.golden_worm_entity": "Golden Worm",
@@ -1575,7 +1549,6 @@
       "entity.monkeania.uncle_joe": "Uncle Joe",
       "item.monkeania.spider_skin": "Spider Skin",
       "block.monkeania.sapphire_block": "Block of Sapphire",
-      "item.monkeania.wither_meat": "Wither Meat",
       "entity.monkeania.worm": "Worm",
       "advancements.flyyyy.title": "Flyyyy",
       "item.monkeania.ruby_armor_chestplate": "Ruby Chestplate",
