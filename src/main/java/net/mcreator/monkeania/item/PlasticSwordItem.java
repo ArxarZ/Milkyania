@@ -14,7 +14,7 @@ public class PlasticSwordItem extends SwordItem {
 	public PlasticSwordItem() {
 		super(new Tier() {
 			public int getUses() {
-				return 400;
+				return 220;
 			}
 
 			public float getSpeed() {

@@ -14,7 +14,7 @@ public class WormBladeItem extends SwordItem {
 	public WormBladeItem() {
 		super(new Tier() {
 			public int getUses() {
-				return 100;
+				return 200;
 			}
 
 			public float getSpeed() {
@@ -22,7 +22,7 @@ public class WormBladeItem extends SwordItem {
 			}
 
 			public float getAttackDamageBonus() {
-				return 2f;
+				return 1f;
 			}
 
 			public int getLevel() {

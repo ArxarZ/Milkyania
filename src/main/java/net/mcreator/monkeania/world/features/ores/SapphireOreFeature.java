@@ -44,7 +44,7 @@ public class SapphireOreFeature extends OreFeature {
 	public static Feature<?> feature() {
 		FEATURE = new SapphireOreFeature();
 		CONFIGURED_FEATURE = FeatureUtils.register("monkeania:sapphire_ore", FEATURE,
-				new OreConfiguration(SapphireOreFeatureRuleTest.INSTANCE, MonkeaniaModBlocks.SAPPHIRE_ORE.get().defaultBlockState(), 5));
+				new OreConfiguration(SapphireOreFeatureRuleTest.INSTANCE, MonkeaniaModBlocks.SAPPHIRE_ORE.get().defaultBlockState(), 6));
 		PLACED_FEATURE = PlacementUtils.register("monkeania:sapphire_ore", CONFIGURED_FEATURE,
 				List.of(CountPlacement.of(6), InSquarePlacement.spread(),
 						HeightRangePlacement.uniform(VerticalAnchor.absolute(-63), VerticalAnchor.absolute(40)), BiomeFilter.biome()));

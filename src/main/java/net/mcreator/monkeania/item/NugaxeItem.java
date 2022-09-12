@@ -14,7 +14,7 @@ public class NugaxeItem extends PickaxeItem {
 	public NugaxeItem() {
 		super(new Tier() {
 			public int getUses() {
-				return 1000;
+				return 1600;
 			}
 
 			public float getSpeed() {
@@ -22,7 +22,7 @@ public class NugaxeItem extends PickaxeItem {
 			}
 
 			public float getAttackDamageBonus() {
-				return 4f;
+				return 3f;
 			}
 
 			public int getLevel() {
@@ -30,7 +30,7 @@ public class NugaxeItem extends PickaxeItem {
 			}
 
 			public int getEnchantmentValue() {
-				return 17;
+				return 13;
 			}
 
 			public Ingredient getRepairIngredient() {

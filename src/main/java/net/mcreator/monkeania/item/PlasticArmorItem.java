@@ -21,7 +21,7 @@ public abstract class PlasticArmorItem extends ArmorItem {
 		super(new ArmorMaterial() {
 			@Override
 			public int getDurabilityForSlot(EquipmentSlot slot) {
-				return new int[]{13, 15, 16, 11}[slot.getIndex()] * 18;
+				return new int[]{13, 15, 16, 11}[slot.getIndex()] * 14;
 			}
 
 			@Override
@@ -31,7 +31,7 @@ public abstract class PlasticArmorItem extends ArmorItem {
 
 			@Override
 			public int getEnchantmentValue() {
-				return 11;
+				return 8;
 			}
 
 			@Override
@@ -51,7 +51,7 @@ public abstract class PlasticArmorItem extends ArmorItem {
 
 			@Override
 			public float getToughness() {
-				return 0f;
+				return 0.5f;
 			}
 
 			@Override

@@ -29,12 +29,12 @@ public abstract class NecroniteArmorItem extends ArmorItem {
 
 			@Override
 			public int getDefenseForSlot(EquipmentSlot slot) {
-				return new int[]{4, 7, 6, 3}[slot.getIndex()];
+				return new int[]{2, 7, 6, 3}[slot.getIndex()];
 			}
 
 			@Override
 			public int getEnchantmentValue() {
-				return 20;
+				return 16;
 			}
 
 			@Override
@@ -54,7 +54,7 @@ public abstract class NecroniteArmorItem extends ArmorItem {
 
 			@Override
 			public float getToughness() {
-				return 2.5f;
+				return 2.7f;
 			}
 
 			@Override

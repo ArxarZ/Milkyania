@@ -18,7 +18,7 @@ public class NecroniteHoeItem extends HoeItem {
 			}
 
 			public float getSpeed() {
-				return 7f;
+				return 9f;
 			}
 
 			public float getAttackDamageBonus() {

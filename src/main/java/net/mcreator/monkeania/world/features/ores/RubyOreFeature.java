@@ -44,7 +44,7 @@ public class RubyOreFeature extends OreFeature {
 	public static Feature<?> feature() {
 		FEATURE = new RubyOreFeature();
 		CONFIGURED_FEATURE = FeatureUtils.register("monkeania:ruby_ore", FEATURE,
-				new OreConfiguration(RubyOreFeatureRuleTest.INSTANCE, MonkeaniaModBlocks.RUBY_ORE.get().defaultBlockState(), 5));
+				new OreConfiguration(RubyOreFeatureRuleTest.INSTANCE, MonkeaniaModBlocks.RUBY_ORE.get().defaultBlockState(), 6));
 		PLACED_FEATURE = PlacementUtils.register("monkeania:ruby_ore", CONFIGURED_FEATURE, List.of(CountPlacement.of(5), InSquarePlacement.spread(),
 				HeightRangePlacement.uniform(VerticalAnchor.absolute(-30), VerticalAnchor.absolute(63)), BiomeFilter.biome()));
 		return FEATURE;

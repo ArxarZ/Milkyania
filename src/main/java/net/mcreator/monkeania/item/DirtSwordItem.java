@@ -13,7 +13,7 @@ public class DirtSwordItem extends PickaxeItem {
 	public DirtSwordItem() {
 		super(new Tier() {
 			public int getUses() {
-				return 20;
+				return 50;
 			}
 
 			public float getSpeed() {
@@ -21,7 +21,7 @@ public class DirtSwordItem extends PickaxeItem {
 			}
 
 			public float getAttackDamageBonus() {
-				return 0f;
+				return -1f;
 			}
 
 			public int getLevel() {
@@ -29,12 +29,12 @@ public class DirtSwordItem extends PickaxeItem {
 			}
 
 			public int getEnchantmentValue() {
-				return 5;
+				return 3;
 			}
 
 			public Ingredient getRepairIngredient() {
 				return Ingredient.of(new ItemStack(Blocks.DIRT));
 			}
-		}, 1, -2.6f, new Item.Properties().tab(CreativeModeTab.TAB_TOOLS));
+		}, 1, -2.2f, new Item.Properties().tab(CreativeModeTab.TAB_TOOLS));
 	}
 }

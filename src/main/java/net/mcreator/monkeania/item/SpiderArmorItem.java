@@ -3,17 +3,20 @@ package net.mcreator.monkeania.item;
 
 import net.minecraftforge.registries.ForgeRegistries;
 
+import net.minecraft.world.level.Level;
 import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.ArmorMaterial;
 import net.minecraft.world.item.ArmorItem;
+import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.sounds.SoundEvent;
 import net.minecraft.resources.ResourceLocation;
 
+import net.mcreator.monkeania.procedures.SpiderArmorHelmetTickEventProcedure;
 import net.mcreator.monkeania.init.MonkeaniaModItems;
 
 public abstract class SpiderArmorItem extends ArmorItem {
@@ -70,6 +73,11 @@ public abstract class SpiderArmorItem extends ArmorItem {
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
 			return "monkeania:textures/models/armor/spider_layer_1.png";
 		}
+
+		@Override
+		public void onArmorTick(ItemStack itemstack, Level world, Player entity) {
+			SpiderArmorHelmetTickEventProcedure.execute(entity);
+		}
 	}
 
 	public static class Chestplate extends SpiderArmorItem {
@@ -80,6 +88,11 @@ public abstract class SpiderArmorItem extends ArmorItem {
 		@Override
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
 			return "monkeania:textures/models/armor/spider_layer_1.png";
+		}
+
+		@Override
+		public void onArmorTick(ItemStack itemstack, Level world, Player entity) {
+			SpiderArmorHelmetTickEventProcedure.execute(entity);
 		}
 	}
 
@@ -92,6 +105,11 @@ public abstract class SpiderArmorItem extends ArmorItem {
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
 			return "monkeania:textures/models/armor/spider_layer_2.png";
 		}
+
+		@Override
+		public void onArmorTick(ItemStack itemstack, Level world, Player entity) {
+			SpiderArmorHelmetTickEventProcedure.execute(entity);
+		}
 	}
 
 	public static class Boots extends SpiderArmorItem {
@@ -102,6 +120,11 @@ public abstract class SpiderArmorItem extends ArmorItem {
 		@Override
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
 			return "monkeania:textures/models/armor/spider_layer_1.png";
+		}
+
+		@Override
+		public void onArmorTick(ItemStack itemstack, Level world, Player entity) {
+			SpiderArmorHelmetTickEventProcedure.execute(entity);
 		}
 	}
 }

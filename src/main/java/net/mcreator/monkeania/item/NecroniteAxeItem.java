@@ -18,11 +18,11 @@ public class NecroniteAxeItem extends AxeItem {
 			}
 
 			public float getSpeed() {
-				return 7f;
+				return 9f;
 			}
 
 			public float getAttackDamageBonus() {
-				return 6f;
+				return 5f;
 			}
 
 			public int getLevel() {

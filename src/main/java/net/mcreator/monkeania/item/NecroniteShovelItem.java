@@ -18,7 +18,7 @@ public class NecroniteShovelItem extends ShovelItem {
 			}
 
 			public float getSpeed() {
-				return 7f;
+				return 9f;
 			}
 
 			public float getAttackDamageBonus() {

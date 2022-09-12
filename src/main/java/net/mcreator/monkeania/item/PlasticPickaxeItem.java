@@ -14,15 +14,15 @@ public class PlasticPickaxeItem extends PickaxeItem {
 	public PlasticPickaxeItem() {
 		super(new Tier() {
 			public int getUses() {
-				return 323;
+				return 220;
 			}
 
 			public float getSpeed() {
-				return 7f;
+				return 5f;
 			}
 
 			public float getAttackDamageBonus() {
-				return 0f;
+				return 2f;
 			}
 
 			public int getLevel() {
@@ -30,12 +30,12 @@ public class PlasticPickaxeItem extends PickaxeItem {
 			}
 
 			public int getEnchantmentValue() {
-				return 17;
+				return 13;
 			}
 
 			public Ingredient getRepairIngredient() {
 				return Ingredient.of(new ItemStack(MonkeaniaModItems.PLASTIC_INGOT.get()));
 			}
-		}, 1, -3f, new Item.Properties().tab(CreativeModeTab.TAB_TOOLS));
+		}, 1, -2.8f, new Item.Properties().tab(CreativeModeTab.TAB_TOOLS));
 	}
 }

@@ -18,7 +18,7 @@ public class NecronitePickaxeItem extends PickaxeItem {
 			}
 
 			public float getSpeed() {
-				return 7f;
+				return 9f;
 			}
 
 			public float getAttackDamageBonus() {

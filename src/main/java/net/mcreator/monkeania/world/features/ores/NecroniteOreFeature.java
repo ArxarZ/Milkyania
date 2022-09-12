@@ -44,10 +44,10 @@ public class NecroniteOreFeature extends OreFeature {
 	public static Feature<?> feature() {
 		FEATURE = new NecroniteOreFeature();
 		CONFIGURED_FEATURE = FeatureUtils.register("monkeania:necronite_ore", FEATURE,
-				new OreConfiguration(NecroniteOreFeatureRuleTest.INSTANCE, MonkeaniaModBlocks.NECRONITE_ORE.get().defaultBlockState(), 7));
+				new OreConfiguration(NecroniteOreFeatureRuleTest.INSTANCE, MonkeaniaModBlocks.NECRONITE_ORE.get().defaultBlockState(), 5));
 		PLACED_FEATURE = PlacementUtils.register("monkeania:necronite_ore", CONFIGURED_FEATURE,
 				List.of(CountPlacement.of(3), InSquarePlacement.spread(),
-						HeightRangePlacement.uniform(VerticalAnchor.absolute(-64), VerticalAnchor.absolute(30)), BiomeFilter.biome()));
+						HeightRangePlacement.uniform(VerticalAnchor.absolute(-64), VerticalAnchor.absolute(5)), BiomeFilter.biome()));
 		return FEATURE;
 	}
 

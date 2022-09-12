@@ -14,9 +14,9 @@
     "harvestLevel": 3,
     "efficiency": 7.0,
     "attackSpeed": 1.2,
-    "enchantability": 17,
-    "damageVsEntity": 6.0,
-    "usageCount": 1000,
+    "enchantability": 13,
+    "damageVsEntity": 5.0,
+    "usageCount": 1600,
     "blocksAffected": [],
     "hasGlow": false,
     "repairItems": [

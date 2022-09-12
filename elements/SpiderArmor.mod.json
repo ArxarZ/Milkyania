@@ -10,6 +10,18 @@
     "textureLeggings": "spider_leggings",
     "enableBoots": true,
     "textureBoots": "spider_boots",
+    "onHelmetTick": {
+      "name": "SpiderArmorHelmetTickEvent"
+    },
+    "onBodyTick": {
+      "name": "SpiderArmorHelmetTickEvent"
+    },
+    "onLeggingsTick": {
+      "name": "SpiderArmorHelmetTickEvent"
+    },
+    "onBootsTick": {
+      "name": "SpiderArmorHelmetTickEvent"
+    },
     "creativeTab": {
       "value": "COMBAT"
     },

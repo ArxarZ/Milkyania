@@ -14,15 +14,15 @@ public class PlasticAxeItem extends AxeItem {
 	public PlasticAxeItem() {
 		super(new Tier() {
 			public int getUses() {
-				return 323;
+				return 220;
 			}
 
 			public float getSpeed() {
-				return 7f;
+				return 5f;
 			}
 
 			public float getAttackDamageBonus() {
-				return 2f;
+				return 4f;
 			}
 
 			public int getLevel() {
@@ -30,12 +30,12 @@ public class PlasticAxeItem extends AxeItem {
 			}
 
 			public int getEnchantmentValue() {
-				return 17;
+				return 13;
 			}
 
 			public Ingredient getRepairIngredient() {
 				return Ingredient.of(new ItemStack(MonkeaniaModItems.PLASTIC_INGOT.get()));
 			}
-		}, 1, -3f, new Item.Properties().tab(CreativeModeTab.TAB_TOOLS));
+		}, 1, -3.1f, new Item.Properties().tab(CreativeModeTab.TAB_TOOLS));
 	}
 }

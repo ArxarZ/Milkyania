@@ -44,10 +44,10 @@ public class PlasticOreFeature extends OreFeature {
 	public static Feature<?> feature() {
 		FEATURE = new PlasticOreFeature();
 		CONFIGURED_FEATURE = FeatureUtils.register("monkeania:plastic_ore", FEATURE,
-				new OreConfiguration(PlasticOreFeatureRuleTest.INSTANCE, MonkeaniaModBlocks.PLASTIC_ORE.get().defaultBlockState(), 4));
+				new OreConfiguration(PlasticOreFeatureRuleTest.INSTANCE, MonkeaniaModBlocks.PLASTIC_ORE.get().defaultBlockState(), 10));
 		PLACED_FEATURE = PlacementUtils.register("monkeania:plastic_ore", CONFIGURED_FEATURE,
-				List.of(CountPlacement.of(4), InSquarePlacement.spread(),
-						HeightRangePlacement.uniform(VerticalAnchor.absolute(1), VerticalAnchor.absolute(35)), BiomeFilter.biome()));
+				List.of(CountPlacement.of(6), InSquarePlacement.spread(),
+						HeightRangePlacement.uniform(VerticalAnchor.absolute(20), VerticalAnchor.absolute(50)), BiomeFilter.biome()));
 		return FEATURE;
 	}
 

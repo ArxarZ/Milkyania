@@ -9,26 +9,20 @@ import net.minecraft.world.effect.MobEffectInstance;
 
 import net.mcreator.monkeania.init.MonkeaniaModItems;
 
-public class NecroniteeffectsProcedure {
+public class SpiderArmorHelmetTickEventProcedure {
 	public static boolean execute(Entity entity) {
 		if (entity == null)
 			return false;
 		if ((entity instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.HEAD) : ItemStack.EMPTY)
-				.getItem() == MonkeaniaModItems.NECRONITE_ARMOR_HELMET.get()) {
+				.getItem() == MonkeaniaModItems.SPIDER_ARMOR_HELMET.get()) {
 			if ((entity instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.CHEST) : ItemStack.EMPTY)
-					.getItem() == MonkeaniaModItems.NECRONITE_ARMOR_CHESTPLATE.get()) {
+					.getItem() == MonkeaniaModItems.SPIDER_ARMOR_CHESTPLATE.get()) {
 				if ((entity instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.LEGS) : ItemStack.EMPTY)
-						.getItem() == MonkeaniaModItems.NECRONITE_ARMOR_LEGGINGS.get()) {
+						.getItem() == MonkeaniaModItems.SPIDER_ARMOR_LEGGINGS.get()) {
 					if ((entity instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.FEET) : ItemStack.EMPTY)
-							.getItem() == MonkeaniaModItems.NECRONITE_ARMOR_BOOTS.get()) {
+							.getItem() == MonkeaniaModItems.SPIDER_ARMOR_BOOTS.get()) {
 						if (entity instanceof LivingEntity _entity)
-							_entity.addEffect(new MobEffectInstance(MobEffects.UNLUCK, 1080000, 1));
-						if (entity instanceof LivingEntity _entity)
-							_entity.addEffect(new MobEffectInstance(MobEffects.DIG_SLOWDOWN, 1080000, 1));
-						if (entity instanceof LivingEntity _entity)
-							_entity.addEffect(new MobEffectInstance(MobEffects.FIRE_RESISTANCE, 1080000, 1));
-						if (entity instanceof LivingEntity _entity)
-							_entity.addEffect(new MobEffectInstance(MobEffects.HEALTH_BOOST, 1080000, 1));
+							_entity.addEffect(new MobEffectInstance(MobEffects.MOVEMENT_SPEED, 1080000, 1));
 					} else {
 						return true;
 					}

@@ -14,11 +14,11 @@ public class PlasticShovelItem extends ShovelItem {
 	public PlasticShovelItem() {
 		super(new Tier() {
 			public int getUses() {
-				return 323;
+				return 220;
 			}
 
 			public float getSpeed() {
-				return 7f;
+				return 5f;
 			}
 
 			public float getAttackDamageBonus() {
@@ -30,12 +30,12 @@ public class PlasticShovelItem extends ShovelItem {
 			}
 
 			public int getEnchantmentValue() {
-				return 17;
+				return 12;
 			}
 
 			public Ingredient getRepairIngredient() {
 				return Ingredient.of(new ItemStack(MonkeaniaModItems.PLASTIC_INGOT.get()));
 			}
-		}, 1, -3f, new Item.Properties().tab(CreativeModeTab.TAB_TOOLS));
+		}, 1, -2f, new Item.Properties().tab(CreativeModeTab.TAB_TOOLS));
 	}
 }
