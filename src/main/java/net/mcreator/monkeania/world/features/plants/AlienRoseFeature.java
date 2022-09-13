@@ -26,16 +26,16 @@ import net.mcreator.monkeania.init.MonkeaniaModBlocks;
 import java.util.Set;
 import java.util.List;
 
-public class CarmineFlowerFeature extends RandomPatchFeature {
-	public static CarmineFlowerFeature FEATURE = null;
+public class AlienRoseFeature extends RandomPatchFeature {
+	public static AlienRoseFeature FEATURE = null;
 	public static Holder<ConfiguredFeature<RandomPatchConfiguration, ?>> CONFIGURED_FEATURE = null;
 	public static Holder<PlacedFeature> PLACED_FEATURE = null;
 
 	public static Feature<?> feature() {
-		FEATURE = new CarmineFlowerFeature();
-		CONFIGURED_FEATURE = FeatureUtils.register("monkeania:carmine_flower", FEATURE, FeatureUtils.simplePatchConfiguration(Feature.SIMPLE_BLOCK,
-				new SimpleBlockConfiguration(BlockStateProvider.simple(MonkeaniaModBlocks.CARMINE_FLOWER.get().defaultBlockState())), List.of(), 20));
-		PLACED_FEATURE = PlacementUtils.register("monkeania:carmine_flower", CONFIGURED_FEATURE, List.of(CountPlacement.of(3),
+		FEATURE = new AlienRoseFeature();
+		CONFIGURED_FEATURE = FeatureUtils.register("monkeania:alien_rose", FEATURE, FeatureUtils.simplePatchConfiguration(Feature.SIMPLE_BLOCK,
+				new SimpleBlockConfiguration(BlockStateProvider.simple(MonkeaniaModBlocks.ALIEN_ROSE.get().defaultBlockState())), List.of(), 20));
+		PLACED_FEATURE = PlacementUtils.register("monkeania:alien_rose", CONFIGURED_FEATURE, List.of(CountPlacement.of(10),
 				RarityFilter.onAverageOnceEvery(32), InSquarePlacement.spread(), PlacementUtils.FULL_RANGE, BiomeFilter.biome()));
 		return FEATURE;
 	}
@@ -45,10 +45,10 @@ public class CarmineFlowerFeature extends RandomPatchFeature {
 	}
 
 	public static final Set<ResourceLocation> GENERATE_BIOMES = Set.of(new ResourceLocation("monkeania:outer_plants"), new ResourceLocation("forest"),
-			new ResourceLocation("sunflower_plains"), new ResourceLocation("plains"), new ResourceLocation("monkeania:spooky_forest"));
+			new ResourceLocation("plains"), new ResourceLocation("monkeania:spooky_forest"));
 	private final Set<ResourceKey<Level>> generate_dimensions = Set.of(Level.OVERWORLD);
 
-	public CarmineFlowerFeature() {
+	public AlienRoseFeature() {
 		super(RandomPatchConfiguration.CODEC);
 	}
 

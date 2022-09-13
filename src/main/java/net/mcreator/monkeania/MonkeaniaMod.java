@@ -30,6 +30,7 @@ import net.mcreator.monkeania.init.MonkeaniaModItems;
 import net.mcreator.monkeania.init.MonkeaniaModFeatures;
 import net.mcreator.monkeania.init.MonkeaniaModEntities;
 import net.mcreator.monkeania.init.MonkeaniaModBlocks;
+import net.mcreator.monkeania.init.MonkeaniaModBiomes;
 
 import java.util.function.Supplier;
 import java.util.function.Function;
@@ -52,6 +53,8 @@ public class MonkeaniaMod {
 		MonkeaniaModEntities.REGISTRY.register(bus);
 
 		MonkeaniaModFeatures.REGISTRY.register(bus);
+
+		MonkeaniaModBiomes.REGISTRY.register(bus);
 
 	}
 

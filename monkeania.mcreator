@@ -1438,6 +1438,156 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "edible_rock"
+    },
+    {
+      "name": "Iceland",
+      "type": "biome",
+      "sortid": 208,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iceland"
+    },
+    {
+      "name": "SpookyForest",
+      "type": "biome",
+      "sortid": 209,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spooky_forest"
+    },
+    {
+      "name": "OuterPlants",
+      "type": "biome",
+      "sortid": 210,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "outer_plants"
+    },
+    {
+      "name": "AlienRose",
+      "type": "plant",
+      "sortid": 211,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alien_rose"
+    },
+    {
+      "name": "CarMINE",
+      "type": "achievement",
+      "sortid": 212,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "car_mine",
+      "path": "~/Advancements"
+    },
+    {
+      "name": "ToTheHeavens",
+      "type": "achievement",
+      "sortid": 213,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "to_the_heavens",
+      "path": "~/Advancements"
+    },
+    {
+      "name": "Aliens",
+      "type": "achievement",
+      "sortid": 214,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aliens",
+      "path": "~/Advancements"
+    },
+    {
+      "name": "TheOuterPlants",
+      "type": "achievement",
+      "sortid": 215,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_outer_plants",
+      "path": "~/Advancements"
+    },
+    {
+      "name": "Scary",
+      "type": "achievement",
+      "sortid": 216,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "scary",
+      "path": "~/Advancements"
+    },
+    {
+      "name": "IceCold",
+      "type": "achievement",
+      "sortid": 217,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ice_cold",
+      "path": "~/Advancements"
+    },
+    {
+      "name": "BloodPlayerFinishesUsingItem",
+      "type": "procedure",
+      "sortid": 218,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blood_player_finishes_using_item",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BlackBonePickaxe",
+      "type": "tool",
+      "sortid": 219,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_bone_pickaxe"
+    },
+    {
+      "name": "AutoSmeltPickaxe",
+      "type": "procedure",
+      "sortid": 219,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "auto_smelt_pickaxe",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -1449,8 +1599,9 @@
       "item.monkeania.bone_sword": "Bone Sword",
       "entity.monkeania.ant": "Ant",
       "item.monkeania.ruby_shovel": "Ruby Shovel",
-      "block.monkeania.ruby_block": "Block of Ruby",
       "item.monkeania.black_bone": "Black Bone",
+      "block.monkeania.ruby_block": "Block of Ruby",
+      "advancements.scary.title": "Scary",
       "entity.monkeania.one_leg_spider": "One Leg Spider",
       "item.monkeania.spider_armor_leggings": "Spider Leggings",
       "item.monkeania.necronite_pickaxe": "Necronite Pickaxe",
@@ -1468,28 +1619,32 @@
       "item.monkeania.sapphire_armor_helmet": "Sapphire Helmet",
       "entity.monkeania.butterfly": "Butterfly",
       "item.monkeania.plastic_pickaxe": "Plastic Pickaxe",
-      "item.monkeania.necronite_armor_helmet": "Necronite Helmet",
-      "item.monkeania.trichina_spawn_egg": "Trichina Spawn Egg",
       "item.monkeania.spider_leg": "Spider Leg",
+      "item.monkeania.trichina_spawn_egg": "Trichina Spawn Egg",
+      "item.monkeania.necronite_armor_helmet": "Necronite Helmet",
+      "advancements.aliens.descr": "Get an Alien Rose",
       "item.monkeania.abyssius_spawn_egg": "Abyssius Spawn Egg",
       "item.monkeania.cooked_zebra_meat": "Cooked Zebra Meat",
       "advancements.its_golden.title": "Its Golden?",
       "item.monkeania.spider_armor_chestplate": "Spider Chestplate",
+      "advancements.ice_cold.descr": "Enter Iceland",
       "item.monkeania.plastic_armor_leggings": "Plastic Leggings",
       "block.monkeania.travertine": "Travertine",
       "item.monkeania.ruby_armor_boots": "Ruby Boots",
       "item.monkeania.dirt_armor_helmet": "Dirt Helmet",
       "item.monkeania.sapphire_shovel": "Sapphire Shovel",
-      "advancements.power_of_the_earth.title": "Power Of The Earth",
       "advancements.combine_the_worms.title": "Combine The Worms",
+      "advancements.power_of_the_earth.title": "Power Of The Earth",
       "item.monkeania.fly_spawn_egg": "Fly Spawn Egg",
       "item.monkeania.plastic_armor_chestplate": "Plastic Chestplate",
       "item.monkeania.plastic_sword": "Plastic Sword",
       "item.monkeania.nugaxe": "Nuggaxe",
+      "advancements.to_the_heavens.title": "To The Heavens",
       "advancements.slaughter.descr": "Kill Abyssius",
       "advancements.power_of_the_earth.descr": "Make a dirt sword",
       "item.monkeania.worm_spawn_egg": "Worm Spawn Egg",
       "item.monkeania.one_leg_spider_spawn_egg": "One Leg Spider Spawn Egg",
+      "biome.monkeania.iceland": "Iceland",
       "advancements.bugs.descr": "Kill a worm",
       "entity.monkeania.zebra": "Zebra",
       "item.monkeania.fries": "Fries",
@@ -1499,6 +1654,7 @@
       "entity.monkeania.burnt_slime": "Burnt Slime",
       "advancements.hell_on_earth.title": "Hell On Earth",
       "item.monkeania.ashes": "Ashes",
+      "item.monkeania.black_bone_pickaxe": "Black Bone Pickaxe",
       "item.monkeania.necronite_hoe": "Necronite Hoe",
       "item.monkeania.ruby_sword": "Ruby Sword",
       "advancements.ant_advancement.descr": "Kill an ant",
@@ -1510,17 +1666,22 @@
       "advancements.its_golden.descr": "Kill a golden worm",
       "item.monkeania.ruby_pickaxe": "Ruby Pickaxe",
       "entity.monkeania.abyssius": "Abyssius",
+      "advancements.aliens.title": "Aliens?",
       "item.monkeania.necronite_axe": "Necronite Axe",
+      "advancements.scary.descr": "Enter The Spooky Forest",
+      "advancements.ice_cold.title": "Ice Cold",
       "advancements.hell_on_earth.descr": "Enter The Carmine Forest",
       "item.monkeania.ruby_armor_helmet": "Ruby Helmet",
       "item.monkeania.necronite_shovel": "Necronite Shovel",
       "entity.monkeania.burnt_slime_attack": "Enraged Burnt Slime",
       "item.monkeania.plastic_shovel": "Plastic Shovel",
       "item.monkeania.golden_worm_entity_spawn_egg": "Golden Worm Spawn Egg",
+      "block.monkeania.alien_rose": "Alien Rose",
       "item.monkeania.sapphire": "Sapphire",
       "block.monkeania.sapphire_ore": "Sapphire Ore",
       "entity.monkeania.arachna": "Arachna",
       "item.monkeania.worm_blade": "Worm Blade",
+      "biome.monkeania.spooky_forest": "Spooky Forest",
       "entity.monkeania.golden_worm_entity": "Golden Worm",
       "block.monkeania.carmine_flower": "Carmine Flower",
       "item.monkeania.edible_rock": "Edible Rock",
@@ -1531,6 +1692,7 @@
       "advancements.creep_defeated.descr": "Kill Uncle Joe",
       "advancements.flyyyy.descr": "Kill a fly",
       "item.monkeania.ruby": "Ruby",
+      "advancements.car_mine.descr": "Get a Carmine flower",
       "entity.monkeania.fly": "Fly",
       "item.monkeania.dirt_sword": "Dirt Sword",
       "item.monkeania.burnt_slime_attack_spawn_egg": "Enraged Burnt Slime Spawn Egg",
@@ -1543,9 +1705,12 @@
       "item.monkeania.dirt_armor_chestplate": "Dirt Chestplate",
       "item.monkeania.spider_armor_helmet": "Spider Helmet",
       "item.monkeania.plastic_axe": "Plastic Axe",
+      "advancements.the_outer_plants.descr": "Find the Outer Plants",
       "item.monkeania.burnt_slime_spawn_egg": "Burnt Slime Spawn Egg",
       "item.monkeania.sapphire_axe": "Sapphire Axe",
+      "biome.monkeania.outer_plants": "Outer Plants",
       "item.monkeania.butterflyitem": "Butterfly",
+      "advancements.to_the_heavens.descr": "Get a sky leaf",
       "item.monkeania.sapphire_armor_leggings": "Sapphire Leggings",
       "item.monkeania.ruby_hoe": "Ruby Hoe",
       "block.monkeania.necronite_block": "Block of Necronite",
@@ -1566,7 +1731,9 @@
       "block.monkeania.necronite_ore": "Necronite Ore",
       "item.monkeania.sapphire_sword": "Sapphire Sword",
       "advancements.combine_the_worms.descr": "Make a Worm Blade",
+      "advancements.car_mine.title": "CarMINE",
       "item.monkeania.plastic_ingot": "Plastic",
+      "advancements.the_outer_plants.title": "The Outer Plants",
       "item.monkeania.necronite_armor_chestplate": "Necronite Chestplate",
       "advancements.creep_defeated.title": "Creep Defeated",
       "entity.monkeania.trichina": "Trichina",

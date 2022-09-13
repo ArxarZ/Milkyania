@@ -60,6 +60,7 @@ import net.mcreator.monkeania.item.ChickenNuggetItem;
 import net.mcreator.monkeania.item.ButterflyitemItem;
 import net.mcreator.monkeania.item.BoneSwordItem;
 import net.mcreator.monkeania.item.BloodItem;
+import net.mcreator.monkeania.item.BlackBonePickaxeItem;
 import net.mcreator.monkeania.item.BlackBoneItem;
 import net.mcreator.monkeania.item.AshesItem;
 import net.mcreator.monkeania.item.AntItemItem;
@@ -185,6 +186,8 @@ public class MonkeaniaModItems {
 	public static final RegistryObject<Item> DIRT_ARMOR_LEGGINGS = REGISTRY.register("dirt_armor_leggings", () -> new DirtArmorItem.Leggings());
 	public static final RegistryObject<Item> DIRT_ARMOR_BOOTS = REGISTRY.register("dirt_armor_boots", () -> new DirtArmorItem.Boots());
 	public static final RegistryObject<Item> EDIBLE_ROCK = REGISTRY.register("edible_rock", () -> new EdibleRockItem());
+	public static final RegistryObject<Item> ALIEN_ROSE = block(MonkeaniaModBlocks.ALIEN_ROSE, CreativeModeTab.TAB_DECORATIONS);
+	public static final RegistryObject<Item> BLACK_BONE_PICKAXE = REGISTRY.register("black_bone_pickaxe", () -> new BlackBonePickaxeItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

@@ -1,0 +1,25 @@
+{
+  "_fv": 33,
+  "_type": "achievement",
+  "definition": {
+    "achievementName": "The Outer Plants",
+    "achievementDescription": "Find the Outer Plants",
+    "achievementIcon": {
+      "value": "CUSTOM:SkyLeaf"
+    },
+    "background": "Default",
+    "disableDisplay": false,
+    "showPopup": true,
+    "announceToChat": true,
+    "hideIfNotCompleted": true,
+    "rewardLoot": [],
+    "rewardRecipes": [],
+    "rewardFunction": "No function",
+    "rewardXP": 0,
+    "achievementType": "task",
+    "parent": {
+      "value": "CUSTOM:PowerOfTheEarth"
+    },
+    "triggerxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"biome_entered\" x=\"34\" y=\"86\"><field name=\"biome\">CUSTOM:OuterPlants</field><next><block type=\"advancement_trigger\"></block></next></block></xml>"
+  }
+}

@@ -19,6 +19,7 @@ import net.minecraft.core.Holder;
 
 import net.mcreator.monkeania.world.features.plants.SkyLeafFeature;
 import net.mcreator.monkeania.world.features.plants.CarmineFlowerFeature;
+import net.mcreator.monkeania.world.features.plants.AlienRoseFeature;
 import net.mcreator.monkeania.world.features.ores.TravertineFeature;
 import net.mcreator.monkeania.world.features.ores.ScoriaFeature;
 import net.mcreator.monkeania.world.features.ores.SapphireOreFeature;
@@ -59,6 +60,8 @@ public class MonkeaniaModFeatures {
 			GenerationStep.Decoration.UNDERGROUND_ORES, SapphireOreFeature.GENERATE_BIOMES, SapphireOreFeature::placedFeature));
 	public static final RegistryObject<Feature<?>> NECRONITE_ORE = register("necronite_ore", NecroniteOreFeature::feature, new FeatureRegistration(
 			GenerationStep.Decoration.UNDERGROUND_ORES, NecroniteOreFeature.GENERATE_BIOMES, NecroniteOreFeature::placedFeature));
+	public static final RegistryObject<Feature<?>> ALIEN_ROSE = register("alien_rose", AlienRoseFeature::feature,
+			new FeatureRegistration(GenerationStep.Decoration.VEGETAL_DECORATION, AlienRoseFeature.GENERATE_BIOMES, AlienRoseFeature::placedFeature));
 
 	private static RegistryObject<Feature<?>> register(String registryname, Supplier<Feature<?>> feature, FeatureRegistration featureRegistration) {
 		FEATURE_REGISTRATIONS.add(featureRegistration);

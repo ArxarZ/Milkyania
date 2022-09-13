@@ -79,12 +79,28 @@
     "jumpFactor": 1.0,
     "speedFactor": 1.0,
     "canBePlacedOn": [],
-    "frequencyOnChunks": 2,
+    "frequencyOnChunks": 10,
     "spawnWorldTypes": [
       "Surface"
     ],
-    "restrictionBiomes": [],
-    "patchSize": 64,
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:OuterPlants"
+      },
+      {
+        "value": "CUSTOM:SpookyForest"
+      },
+      {
+        "value": "forest"
+      },
+      {
+        "value": "plains"
+      },
+      {
+        "value": "mutated_plains"
+      }
+    ],
+    "patchSize": 20,
     "generateAtAnyHeight": true
   }
 }

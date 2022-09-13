@@ -3,7 +3,7 @@
   "_type": "plant",
   "definition": {
     "renderType": 12,
-    "texture": "crimsonflower",
+    "texture": "alienrose",
     "textureBottom": "",
     "customModelName": "Cross model",
     "itemTexture": "",
@@ -30,7 +30,7 @@
         "subtract": false
       }
     ],
-    "name": "Carmine Flower",
+    "name": "Alien Rose",
     "specialInfo": [],
     "creativeTab": {
       "value": "DECORATIONS"
@@ -74,24 +74,21 @@
     },
     "offsetType": "XZ",
     "aiPathNodeType": "DEFAULT",
-    "flammability": 0,
-    "fireSpreadSpeed": 0,
+    "flammability": 100,
+    "fireSpreadSpeed": 60,
     "jumpFactor": 1.0,
-    "speedFactor": 1.0,
+    "speedFactor": 1.2,
     "canBePlacedOn": [],
-    "frequencyOnChunks": 3,
+    "frequencyOnChunks": 10,
     "spawnWorldTypes": [
       "Surface"
     ],
     "restrictionBiomes": [
       {
-        "value": "CUSTOM:OuterPlants"
-      },
-      {
         "value": "plains"
       },
       {
-        "value": "mutated_plains"
+        "value": "CUSTOM:OuterPlants"
       },
       {
         "value": "CUSTOM:SpookyForest"

@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "item": "monkeania:sky_leaf"
+    },
+    "title": {
+      "translate": "advancements.to_the_heavens.title"
+    },
+    "description": {
+      "translate": "advancements.to_the_heavens.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "to_the_heavens": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "monkeania:sky_leaf"
+            ],
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "monkeania:car_mine"
+}

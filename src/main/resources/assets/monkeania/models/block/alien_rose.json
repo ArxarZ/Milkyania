@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "monkeania:blocks/alienrose",
+    "particle": "monkeania:blocks/alienrose"
+  }
+}

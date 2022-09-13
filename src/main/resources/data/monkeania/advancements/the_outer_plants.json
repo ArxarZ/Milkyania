@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "monkeania:sky_leaf"
+    },
+    "title": {
+      "translate": "advancements.the_outer_plants.title"
+    },
+    "description": {
+      "translate": "advancements.the_outer_plants.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "the_outer_plants": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "monkeania:outer_plants"
+      }
+    }
+  },
+  "parent": "monkeania:power_of_the_earth"
+}

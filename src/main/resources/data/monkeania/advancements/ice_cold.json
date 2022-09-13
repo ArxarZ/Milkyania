@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:ice"
+    },
+    "title": {
+      "translate": "advancements.ice_cold.title"
+    },
+    "description": {
+      "translate": "advancements.ice_cold.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "ice_cold": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "biome": "monkeania:iceland"
+      }
+    }
+  },
+  "parent": "monkeania:power_of_the_earth"
+}

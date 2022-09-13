@@ -34,8 +34,8 @@ public class SkyLeafFeature extends RandomPatchFeature {
 	public static Feature<?> feature() {
 		FEATURE = new SkyLeafFeature();
 		CONFIGURED_FEATURE = FeatureUtils.register("monkeania:sky_leaf", FEATURE, FeatureUtils.simplePatchConfiguration(Feature.SIMPLE_BLOCK,
-				new SimpleBlockConfiguration(BlockStateProvider.simple(MonkeaniaModBlocks.SKY_LEAF.get().defaultBlockState())), List.of(), 64));
-		PLACED_FEATURE = PlacementUtils.register("monkeania:sky_leaf", CONFIGURED_FEATURE, List.of(CountPlacement.of(2),
+				new SimpleBlockConfiguration(BlockStateProvider.simple(MonkeaniaModBlocks.SKY_LEAF.get().defaultBlockState())), List.of(), 20));
+		PLACED_FEATURE = PlacementUtils.register("monkeania:sky_leaf", CONFIGURED_FEATURE, List.of(CountPlacement.of(10),
 				RarityFilter.onAverageOnceEvery(32), InSquarePlacement.spread(), PlacementUtils.FULL_RANGE, BiomeFilter.biome()));
 		return FEATURE;
 	}
@@ -44,7 +44,8 @@ public class SkyLeafFeature extends RandomPatchFeature {
 		return PLACED_FEATURE;
 	}
 
-	public static final Set<ResourceLocation> GENERATE_BIOMES = null;
+	public static final Set<ResourceLocation> GENERATE_BIOMES = Set.of(new ResourceLocation("monkeania:outer_plants"), new ResourceLocation("forest"),
+			new ResourceLocation("sunflower_plains"), new ResourceLocation("plains"), new ResourceLocation("monkeania:spooky_forest"));
 	private final Set<ResourceKey<Level>> generate_dimensions = Set.of(Level.OVERWORLD);
 
 	public SkyLeafFeature() {
