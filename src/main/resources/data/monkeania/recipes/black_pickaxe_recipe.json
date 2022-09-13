@@ -7,13 +7,13 @@
   ],
   "key": {
     "0": {
-      "item": "monkeania:necronite"
+      "item": "monkeania:black_bone"
     },
     "1": {
-      "item": "monkeania:chicken_nugget"
+      "item": "monkeania:black_bone"
     },
     "2": {
-      "item": "monkeania:necronite"
+      "item": "monkeania:black_bone"
     },
     "4": {
       "item": "minecraft:stick"
@@ -23,7 +23,7 @@
     }
   },
   "result": {
-    "item": "monkeania:nugaxe",
+    "item": "monkeania:black_bone_pickaxe",
     "count": 1
   }
 }

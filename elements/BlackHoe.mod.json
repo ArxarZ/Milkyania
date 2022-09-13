@@ -3,28 +3,28 @@
   "_type": "tool",
   "definition": {
     "renderType": 0,
-    "texture": "nuggaxe",
+    "texture": "black_hoe",
     "customModelName": "Normal",
-    "name": "Nuggaxe",
+    "name": "Black Hoe",
     "specialInfo": [],
     "creativeTab": {
       "value": "TOOLS"
     },
-    "toolType": "Pickaxe",
-    "harvestLevel": 3,
+    "toolType": "Hoe",
+    "harvestLevel": 4,
     "efficiency": 7.0,
-    "attackSpeed": 1.2,
-    "enchantability": 22,
-    "damageVsEntity": 5.0,
-    "usageCount": 6000,
+    "attackSpeed": 1.0,
+    "enchantability": 28,
+    "damageVsEntity": 2.0,
+    "usageCount": 2000,
     "blocksAffected": [],
     "hasGlow": false,
     "repairItems": [
       {
-        "value": "CUSTOM:ChickenNugget"
+        "value": "CUSTOM:BlackBone"
       }
     ],
-    "immuneToFire": false,
+    "immuneToFire": true,
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": false
   }

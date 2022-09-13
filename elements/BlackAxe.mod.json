@@ -3,28 +3,28 @@
   "_type": "tool",
   "definition": {
     "renderType": 0,
-    "texture": "nuggaxe",
+    "texture": "black_axe",
     "customModelName": "Normal",
-    "name": "Nuggaxe",
+    "name": "Black Bone Axe",
     "specialInfo": [],
     "creativeTab": {
       "value": "TOOLS"
     },
-    "toolType": "Pickaxe",
-    "harvestLevel": 3,
-    "efficiency": 7.0,
-    "attackSpeed": 1.2,
-    "enchantability": 22,
-    "damageVsEntity": 5.0,
-    "usageCount": 6000,
+    "toolType": "Axe",
+    "harvestLevel": 4,
+    "efficiency": 8.0,
+    "attackSpeed": 0.8,
+    "enchantability": 20,
+    "damageVsEntity": 8.0,
+    "usageCount": 1500,
     "blocksAffected": [],
     "hasGlow": false,
     "repairItems": [
       {
-        "value": "CUSTOM:ChickenNugget"
+        "value": "CUSTOM:BlackBone"
       }
     ],
-    "immuneToFire": false,
+    "immuneToFire": true,
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": false
   }

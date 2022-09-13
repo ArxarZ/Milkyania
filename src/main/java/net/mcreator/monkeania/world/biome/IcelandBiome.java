@@ -13,10 +13,10 @@ import net.minecraft.data.worldgen.BiomeDefaultFeatures;
 import net.mcreator.monkeania.init.MonkeaniaModEntities;
 
 public class IcelandBiome {
-	public static final Climate.ParameterPoint PARAMETER_POINT = new Climate.ParameterPoint(Climate.Parameter.span(-0.142857142857f, 0.142857142857f),
-			Climate.Parameter.span(-0.142857142857f, 0.142857142857f), Climate.Parameter.span(0.367142857143f, 0.652857142857f),
-			Climate.Parameter.span(0.757142857143f, 1.042857142857f), Climate.Parameter.point(0),
-			Climate.Parameter.span(0.348418718331f, 0.634133004045f), 0);
+	public static final Climate.ParameterPoint PARAMETER_POINT = new Climate.ParameterPoint(Climate.Parameter.span(-0.157142857143f, 0.157142857143f),
+			Climate.Parameter.span(-0.157142857143f, 0.157142857143f), Climate.Parameter.span(0.352857142857f, 0.667142857143f),
+			Climate.Parameter.span(0.742857142857f, 1.057142857143f), Climate.Parameter.point(0),
+			Climate.Parameter.span(0.334133004045f, 0.648418718331f), 0);
 
 	public static Biome createBiome() {
 		BiomeSpecialEffects effects = new BiomeSpecialEffects.Builder().fogColor(12638463).waterColor(4159204).waterFogColor(329011).skyColor(7972607)

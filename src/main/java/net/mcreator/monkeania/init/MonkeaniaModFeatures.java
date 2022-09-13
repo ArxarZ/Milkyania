@@ -28,6 +28,8 @@ import net.mcreator.monkeania.world.features.ores.PlasticOreFeature;
 import net.mcreator.monkeania.world.features.ores.NecroniteOreFeature;
 import net.mcreator.monkeania.world.features.ScoriaRockUndergroundFeature;
 import net.mcreator.monkeania.world.features.ScoriaRockFeature;
+import net.mcreator.monkeania.world.features.McdonaldsFeature;
+import net.mcreator.monkeania.world.features.AltarOfHoneyFeature;
 import net.mcreator.monkeania.MonkeaniaMod;
 
 import java.util.function.Supplier;
@@ -62,6 +64,10 @@ public class MonkeaniaModFeatures {
 			GenerationStep.Decoration.UNDERGROUND_ORES, NecroniteOreFeature.GENERATE_BIOMES, NecroniteOreFeature::placedFeature));
 	public static final RegistryObject<Feature<?>> ALIEN_ROSE = register("alien_rose", AlienRoseFeature::feature,
 			new FeatureRegistration(GenerationStep.Decoration.VEGETAL_DECORATION, AlienRoseFeature.GENERATE_BIOMES, AlienRoseFeature::placedFeature));
+	public static final RegistryObject<Feature<?>> MCDONALDS = register("mcdonalds", McdonaldsFeature::feature,
+			new FeatureRegistration(GenerationStep.Decoration.SURFACE_STRUCTURES, McdonaldsFeature.GENERATE_BIOMES, McdonaldsFeature::placedFeature));
+	public static final RegistryObject<Feature<?>> ALTAR_OF_HONEY = register("altar_of_honey", AltarOfHoneyFeature::feature, new FeatureRegistration(
+			GenerationStep.Decoration.SURFACE_STRUCTURES, AltarOfHoneyFeature.GENERATE_BIOMES, AltarOfHoneyFeature::placedFeature));
 
 	private static RegistryObject<Feature<?>> register(String registryname, Supplier<Feature<?>> feature, FeatureRegistration featureRegistration) {
 		FEATURE_REGISTRATIONS.add(featureRegistration);

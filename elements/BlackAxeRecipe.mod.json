@@ -10,16 +10,16 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "CUSTOM:Necronite"
+        "value": "CUSTOM:BlackBone"
       },
       {
-        "value": "CUSTOM:ChickenNugget"
-      },
-      {
-        "value": "CUSTOM:Necronite"
+        "value": "CUSTOM:BlackBone"
       },
       {
         "value": ""
+      },
+      {
+        "value": "CUSTOM:BlackBone"
       },
       {
         "value": "Items.STICK"
@@ -38,9 +38,9 @@
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:Nugaxe"
+      "value": "CUSTOM:BlackAxe"
     },
-    "name": "nuggaxe",
+    "name": "black_axe_recipe",
     "namespace": "mod"
   }
 }

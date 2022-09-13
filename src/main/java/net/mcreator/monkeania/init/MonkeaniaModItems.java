@@ -60,8 +60,11 @@ import net.mcreator.monkeania.item.ChickenNuggetItem;
 import net.mcreator.monkeania.item.ButterflyitemItem;
 import net.mcreator.monkeania.item.BoneSwordItem;
 import net.mcreator.monkeania.item.BloodItem;
+import net.mcreator.monkeania.item.BlackShovelItem;
+import net.mcreator.monkeania.item.BlackHoeItem;
 import net.mcreator.monkeania.item.BlackBonePickaxeItem;
 import net.mcreator.monkeania.item.BlackBoneItem;
+import net.mcreator.monkeania.item.BlackAxeItem;
 import net.mcreator.monkeania.item.AshesItem;
 import net.mcreator.monkeania.item.AntItemItem;
 import net.mcreator.monkeania.MonkeaniaMod;
@@ -188,6 +191,9 @@ public class MonkeaniaModItems {
 	public static final RegistryObject<Item> EDIBLE_ROCK = REGISTRY.register("edible_rock", () -> new EdibleRockItem());
 	public static final RegistryObject<Item> ALIEN_ROSE = block(MonkeaniaModBlocks.ALIEN_ROSE, CreativeModeTab.TAB_DECORATIONS);
 	public static final RegistryObject<Item> BLACK_BONE_PICKAXE = REGISTRY.register("black_bone_pickaxe", () -> new BlackBonePickaxeItem());
+	public static final RegistryObject<Item> BLACK_AXE = REGISTRY.register("black_axe", () -> new BlackAxeItem());
+	public static final RegistryObject<Item> BLACK_SHOVEL = REGISTRY.register("black_shovel", () -> new BlackShovelItem());
+	public static final RegistryObject<Item> BLACK_HOE = REGISTRY.register("black_hoe", () -> new BlackHoeItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

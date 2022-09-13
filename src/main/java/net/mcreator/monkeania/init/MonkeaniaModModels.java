@@ -12,6 +12,7 @@ import net.minecraftforge.api.distmarker.Dist;
 import net.mcreator.monkeania.client.model.Modelzebra;
 import net.mcreator.monkeania.client.model.Modeluncle_joe;
 import net.mcreator.monkeania.client.model.Modeltrichina;
+import net.mcreator.monkeania.client.model.Modelspiderchestplate;
 import net.mcreator.monkeania.client.model.Modelskyder;
 import net.mcreator.monkeania.client.model.Modelonelegspider;
 import net.mcreator.monkeania.client.model.Modelfly;
@@ -37,6 +38,7 @@ public class MonkeaniaModModels {
 		event.registerLayerDefinition(Modelabyssius.LAYER_LOCATION, Modelabyssius::createBodyLayer);
 		event.registerLayerDefinition(Modelonelegspider.LAYER_LOCATION, Modelonelegspider::createBodyLayer);
 		event.registerLayerDefinition(Modelbutterfly.LAYER_LOCATION, Modelbutterfly::createBodyLayer);
+		event.registerLayerDefinition(Modelspiderchestplate.LAYER_LOCATION, Modelspiderchestplate::createBodyLayer);
 		event.registerLayerDefinition(Modelfly.LAYER_LOCATION, Modelfly::createBodyLayer);
 		event.registerLayerDefinition(Modeluncle_joe.LAYER_LOCATION, Modeluncle_joe::createBodyLayer);
 		event.registerLayerDefinition(ModelCustomArmor_spider_helmet_new.LAYER_LOCATION, ModelCustomArmor_spider_helmet_new::createBodyLayer);

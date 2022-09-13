@@ -3,6 +3,8 @@ package net.mcreator.monkeania.item;
 
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.client.IItemRenderProperties;
+import net.minecraftforge.api.distmarker.OnlyIn;
+import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.world.level.Level;
 import net.minecraft.world.item.crafting.Ingredient;
@@ -23,6 +25,7 @@ import net.minecraft.client.Minecraft;
 
 import net.mcreator.monkeania.procedures.SpiderArmorHelmetTickEventProcedure;
 import net.mcreator.monkeania.init.MonkeaniaModItems;
+import net.mcreator.monkeania.client.model.Modelspiderchestplate;
 import net.mcreator.monkeania.client.model.ModelCustomArmor_spider_helmet_new;
 
 import java.util.Map;
@@ -75,7 +78,7 @@ public abstract class SpiderArmorItem extends ArmorItem {
 
 	public static class Helmet extends SpiderArmorItem {
 		public Helmet() {
-			super(EquipmentSlot.HEAD, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT));
+			super(EquipmentSlot.HEAD, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT).fireResistant());
 		}
 
 		public void initializeClient(java.util.function.Consumer<net.minecraftforge.client.IItemRenderProperties> consumer) {
@@ -112,12 +115,35 @@ public abstract class SpiderArmorItem extends ArmorItem {
 
 	public static class Chestplate extends SpiderArmorItem {
 		public Chestplate() {
-			super(EquipmentSlot.CHEST, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT));
+			super(EquipmentSlot.CHEST, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT).fireResistant());
+		}
+
+		public void initializeClient(java.util.function.Consumer<net.minecraftforge.client.IItemRenderProperties> consumer) {
+			consumer.accept(new IItemRenderProperties() {
+				@Override
+				@OnlyIn(Dist.CLIENT)
+				public HumanoidModel getArmorModel(LivingEntity living, ItemStack stack, EquipmentSlot slot, HumanoidModel defaultModel) {
+					HumanoidModel armorModel = new HumanoidModel(new ModelPart(Collections.emptyList(), Map.of("body",
+							new Modelspiderchestplate(Minecraft.getInstance().getEntityModels().bakeLayer(Modelspiderchestplate.LAYER_LOCATION)).Body,
+							"left_arm",
+							new Modelspiderchestplate(Minecraft.getInstance().getEntityModels().bakeLayer(Modelspiderchestplate.LAYER_LOCATION)).Body,
+							"right_arm",
+							new Modelspiderchestplate(Minecraft.getInstance().getEntityModels().bakeLayer(Modelspiderchestplate.LAYER_LOCATION)).Body,
+							"head", new ModelPart(Collections.emptyList(), Collections.emptyMap()), "hat",
+							new ModelPart(Collections.emptyList(), Collections.emptyMap()), "right_leg",
+							new ModelPart(Collections.emptyList(), Collections.emptyMap()), "left_leg",
+							new ModelPart(Collections.emptyList(), Collections.emptyMap()))));
+					armorModel.crouching = living.isShiftKeyDown();
+					armorModel.riding = defaultModel.riding;
+					armorModel.young = living.isBaby();
+					return armorModel;
+				}
+			});
 		}
 
 		@Override
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
-			return "monkeania:textures/models/armor/spider_layer_1.png";
+			return "monkeania:textures/entities/spider_chestplate.png";
 		}
 
 		@Override
@@ -128,7 +154,7 @@ public abstract class SpiderArmorItem extends ArmorItem {
 
 	public static class Leggings extends SpiderArmorItem {
 		public Leggings() {
-			super(EquipmentSlot.LEGS, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT));
+			super(EquipmentSlot.LEGS, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT).fireResistant());
 		}
 
 		@Override

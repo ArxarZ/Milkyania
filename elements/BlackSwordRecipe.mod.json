@@ -10,19 +10,19 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "CUSTOM:Necronite"
+        "value": ""
       },
       {
-        "value": "CUSTOM:ChickenNugget"
-      },
-      {
-        "value": "CUSTOM:Necronite"
+        "value": "CUSTOM:BlackBone"
       },
       {
         "value": ""
       },
       {
-        "value": "Items.STICK"
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:BlackBone"
       },
       {
         "value": ""
@@ -38,9 +38,9 @@
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:Nugaxe"
+      "value": "CUSTOM:BoneSword"
     },
-    "name": "nuggaxe",
+    "name": "black_sword_recipe",
     "namespace": "mod"
   }
 }

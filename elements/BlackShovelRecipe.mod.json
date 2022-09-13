@@ -22,7 +22,7 @@
         "value": ""
       },
       {
-        "value": "CUSTOM:BlackBone"
+        "value": "Items.STICK"
       },
       {
         "value": ""
@@ -38,9 +38,9 @@
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:BoneSword"
+      "value": "CUSTOM:BlackShovel"
     },
-    "name": "bone_swordrecipe",
+    "name": "black_shovel_recipe",
     "namespace": "mod"
   }
 }

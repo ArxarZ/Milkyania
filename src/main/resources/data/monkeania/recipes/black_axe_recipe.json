@@ -1,29 +1,29 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "012",
-    " 4 ",
-    " 7 "
+    "01",
+    "23",
+    " 5"
   ],
   "key": {
     "0": {
-      "item": "monkeania:necronite"
+      "item": "monkeania:black_bone"
     },
     "1": {
-      "item": "monkeania:chicken_nugget"
+      "item": "monkeania:black_bone"
     },
     "2": {
-      "item": "monkeania:necronite"
+      "item": "monkeania:black_bone"
     },
-    "4": {
+    "3": {
       "item": "minecraft:stick"
     },
-    "7": {
+    "5": {
       "item": "minecraft:stick"
     }
   },
   "result": {
-    "item": "monkeania:nugaxe",
+    "item": "monkeania:black_axe",
     "count": 1
   }
 }

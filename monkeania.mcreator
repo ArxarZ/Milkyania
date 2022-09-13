@@ -47,7 +47,8 @@
       "sortid": 29,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "hell_on_earth"
+      "registry_name": "hell_on_earth",
+      "path": "~/Advancements"
     },
     {
       "name": "Ashes",
@@ -687,15 +688,8 @@
       "sortid": 130,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "bone_sword"
-    },
-    {
-      "name": "BoneSwordrecipe",
-      "type": "recipe",
-      "sortid": 131,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "bone_swordrecipe"
+      "registry_name": "bone_sword",
+      "path": "~/BlackBoneTools"
     },
     {
       "name": "Trichina",
@@ -1559,7 +1553,8 @@
       "sortid": 219,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "black_bone_pickaxe"
+      "registry_name": "black_bone_pickaxe",
+      "path": "~/BlackBoneTools"
     },
     {
       "name": "AutoSmeltPickaxe",
@@ -1588,6 +1583,94 @@
           }
         ]
       }
+    },
+    {
+      "name": "BlackAxe",
+      "type": "tool",
+      "sortid": 222,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_axe",
+      "path": "~/BlackBoneTools"
+    },
+    {
+      "name": "BlackShovel",
+      "type": "tool",
+      "sortid": 224,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_shovel",
+      "path": "~/BlackBoneTools"
+    },
+    {
+      "name": "BlackHoe",
+      "type": "tool",
+      "sortid": 225,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_hoe",
+      "path": "~/BlackBoneTools"
+    },
+    {
+      "name": "BlackPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 226,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_pickaxe_recipe",
+      "path": "~/BlackBoneTools"
+    },
+    {
+      "name": "BlackAxeRecipe",
+      "type": "recipe",
+      "sortid": 227,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_axe_recipe",
+      "path": "~/BlackBoneTools"
+    },
+    {
+      "name": "BlackSwordRecipe",
+      "type": "recipe",
+      "sortid": 228,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_sword_recipe",
+      "path": "~/BlackBoneTools"
+    },
+    {
+      "name": "BlackShovelRecipe",
+      "type": "recipe",
+      "sortid": 229,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_shovel_recipe",
+      "path": "~/BlackBoneTools"
+    },
+    {
+      "name": "BlackHoeRecipe",
+      "type": "recipe",
+      "sortid": 230,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_hoe_recipe",
+      "path": "~/BlackBoneTools"
+    },
+    {
+      "name": "Mcdonalds",
+      "type": "structure",
+      "sortid": 231,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mcdonalds"
+    },
+    {
+      "name": "AltarOfHoney",
+      "type": "structure",
+      "sortid": 232,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "altar_of_honey"
     }
   ],
   "variable_elements": [],
@@ -1595,8 +1678,9 @@
   "language_map": {
     "en_us": {
       "advancements.ant_advancement.title": "Ants",
+      "item.monkeania.black_hoe": "Black Hoe",
       "item.monkeania.necronite": "Necronite",
-      "item.monkeania.bone_sword": "Bone Sword",
+      "item.monkeania.bone_sword": "Black Bone Sword",
       "entity.monkeania.ant": "Ant",
       "item.monkeania.ruby_shovel": "Ruby Shovel",
       "item.monkeania.black_bone": "Black Bone",
@@ -1619,10 +1703,10 @@
       "item.monkeania.sapphire_armor_helmet": "Sapphire Helmet",
       "entity.monkeania.butterfly": "Butterfly",
       "item.monkeania.plastic_pickaxe": "Plastic Pickaxe",
-      "item.monkeania.spider_leg": "Spider Leg",
-      "item.monkeania.trichina_spawn_egg": "Trichina Spawn Egg",
-      "item.monkeania.necronite_armor_helmet": "Necronite Helmet",
       "advancements.aliens.descr": "Get an Alien Rose",
+      "item.monkeania.necronite_armor_helmet": "Necronite Helmet",
+      "item.monkeania.trichina_spawn_egg": "Trichina Spawn Egg",
+      "item.monkeania.spider_leg": "Spider Leg",
       "item.monkeania.abyssius_spawn_egg": "Abyssius Spawn Egg",
       "item.monkeania.cooked_zebra_meat": "Cooked Zebra Meat",
       "advancements.its_golden.title": "Its Golden?",
@@ -1645,6 +1729,7 @@
       "item.monkeania.worm_spawn_egg": "Worm Spawn Egg",
       "item.monkeania.one_leg_spider_spawn_egg": "One Leg Spider Spawn Egg",
       "biome.monkeania.iceland": "Iceland",
+      "item.monkeania.black_axe": "Black Bone Axe",
       "advancements.bugs.descr": "Kill a worm",
       "entity.monkeania.zebra": "Zebra",
       "item.monkeania.fries": "Fries",
@@ -1704,6 +1789,7 @@
       "advancements.slaughter.title": "Slaughter",
       "item.monkeania.dirt_armor_chestplate": "Dirt Chestplate",
       "item.monkeania.spider_armor_helmet": "Spider Helmet",
+      "item.monkeania.black_shovel": "Black Shovel",
       "item.monkeania.plastic_axe": "Plastic Axe",
       "advancements.the_outer_plants.descr": "Find the Outer Plants",
       "item.monkeania.burnt_slime_spawn_egg": "Burnt Slime Spawn Egg",
@@ -1773,6 +1859,10 @@
       },
       {
         "name": "Dirt Armor",
+        "children": []
+      },
+      {
+        "name": "BlackBoneTools",
         "children": []
       }
     ]

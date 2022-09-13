@@ -42,10 +42,10 @@ import java.util.List;
 import com.google.common.collect.ImmutableList;
 
 public class SpookyForestBiome {
-	public static final Climate.ParameterPoint PARAMETER_POINT = new Climate.ParameterPoint(Climate.Parameter.span(0.204761904763f, 0.461904761905f),
-			Climate.Parameter.span(0.271428571429f, 0.528571428571f), Climate.Parameter.span(0.381428571429f, 0.638571428571f),
-			Climate.Parameter.span(0.671428571429f, 0.928571428571f), Climate.Parameter.point(0),
-			Climate.Parameter.span(-0.60930876656f, -0.352165909418f), 0);
+	public static final Climate.ParameterPoint PARAMETER_POINT = new Climate.ParameterPoint(Climate.Parameter.span(0.161904761905f, 0.504761904763f),
+			Climate.Parameter.span(0.228571428571f, 0.571428571429f), Climate.Parameter.span(0.338571428571f, 0.681428571429f),
+			Climate.Parameter.span(0.628571428571f, 0.971428571429f), Climate.Parameter.point(0),
+			Climate.Parameter.span(-0.652165909418f, -0.30930876656f), 0);
 
 	public static Biome createBiome() {
 		BiomeSpecialEffects effects = new BiomeSpecialEffects.Builder().fogColor(-16766417).waterColor(4159204).waterFogColor(329011)
