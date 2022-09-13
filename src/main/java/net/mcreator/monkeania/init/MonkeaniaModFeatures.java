@@ -29,6 +29,7 @@ import net.mcreator.monkeania.world.features.ores.NecroniteOreFeature;
 import net.mcreator.monkeania.world.features.ScoriaRockUndergroundFeature;
 import net.mcreator.monkeania.world.features.ScoriaRockFeature;
 import net.mcreator.monkeania.world.features.McdonaldsFeature;
+import net.mcreator.monkeania.world.features.ExcaliburAltarFeature;
 import net.mcreator.monkeania.world.features.AltarOfHoneyFeature;
 import net.mcreator.monkeania.MonkeaniaMod;
 
@@ -68,6 +69,9 @@ public class MonkeaniaModFeatures {
 			new FeatureRegistration(GenerationStep.Decoration.SURFACE_STRUCTURES, McdonaldsFeature.GENERATE_BIOMES, McdonaldsFeature::placedFeature));
 	public static final RegistryObject<Feature<?>> ALTAR_OF_HONEY = register("altar_of_honey", AltarOfHoneyFeature::feature, new FeatureRegistration(
 			GenerationStep.Decoration.SURFACE_STRUCTURES, AltarOfHoneyFeature.GENERATE_BIOMES, AltarOfHoneyFeature::placedFeature));
+	public static final RegistryObject<Feature<?>> EXCALIBUR_ALTAR = register("excalibur_altar", ExcaliburAltarFeature::feature,
+			new FeatureRegistration(GenerationStep.Decoration.SURFACE_STRUCTURES, ExcaliburAltarFeature.GENERATE_BIOMES,
+					ExcaliburAltarFeature::placedFeature));
 
 	private static RegistryObject<Feature<?>> register(String registryname, Supplier<Feature<?>> feature, FeatureRegistration featureRegistration) {
 		FEATURE_REGISTRATIONS.add(featureRegistration);

@@ -126,9 +126,10 @@ public abstract class SpiderArmorItem extends ArmorItem {
 					HumanoidModel armorModel = new HumanoidModel(new ModelPart(Collections.emptyList(), Map.of("body",
 							new Modelspiderchestplate(Minecraft.getInstance().getEntityModels().bakeLayer(Modelspiderchestplate.LAYER_LOCATION)).Body,
 							"left_arm",
-							new Modelspiderchestplate(Minecraft.getInstance().getEntityModels().bakeLayer(Modelspiderchestplate.LAYER_LOCATION)).Body,
+							new Modelspiderchestplate(Minecraft.getInstance().getEntityModels().bakeLayer(Modelspiderchestplate.LAYER_LOCATION)).left,
 							"right_arm",
-							new Modelspiderchestplate(Minecraft.getInstance().getEntityModels().bakeLayer(Modelspiderchestplate.LAYER_LOCATION)).Body,
+							new Modelspiderchestplate(
+									Minecraft.getInstance().getEntityModels().bakeLayer(Modelspiderchestplate.LAYER_LOCATION)).right,
 							"head", new ModelPart(Collections.emptyList(), Collections.emptyMap()), "hat",
 							new ModelPart(Collections.emptyList(), Collections.emptyMap()), "right_leg",
 							new ModelPart(Collections.emptyList(), Collections.emptyMap()), "left_leg",
