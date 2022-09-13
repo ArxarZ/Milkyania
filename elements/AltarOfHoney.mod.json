@@ -5,7 +5,7 @@
     "structure": "cocoonofhoney",
     "randomlyRotateStructure": true,
     "surfaceDetectionType": "First motion blocking block",
-    "spawnProbability": 3000,
+    "spawnProbability": 50000,
     "minCountPerChunk": 1,
     "maxCountPerChunk": 1,
     "spawnLocation": "Ground",
