@@ -1671,6 +1671,55 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "altar_of_honey"
+    },
+    {
+      "name": "TheExcalibur",
+      "type": "procedure",
+      "sortid": 233,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_excalibur",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Excalibur",
+      "type": "tool",
+      "sortid": 233,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "excalibur"
+    },
+    {
+      "name": "TheChosenOne",
+      "type": "achievement",
+      "sortid": 234,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_chosen_one",
+      "path": "~/Advancements"
     }
   ],
   "variable_elements": [],
@@ -1764,7 +1813,9 @@
       "block.monkeania.alien_rose": "Alien Rose",
       "item.monkeania.sapphire": "Sapphire",
       "block.monkeania.sapphire_ore": "Sapphire Ore",
+      "item.monkeania.excalibur": "The Excalibur",
       "entity.monkeania.arachna": "Arachna",
+      "advancements.the_chosen_one.title": "The Chosen One",
       "item.monkeania.worm_blade": "Worm Blade",
       "biome.monkeania.spooky_forest": "Spooky Forest",
       "entity.monkeania.golden_worm_entity": "Golden Worm",
@@ -1816,6 +1867,7 @@
       "item.monkeania.dirt_armor_leggings": "Dirt Leggings",
       "block.monkeania.necronite_ore": "Necronite Ore",
       "item.monkeania.sapphire_sword": "Sapphire Sword",
+      "advancements.the_chosen_one.descr": "Obtain The Excailbur. You are the chosen one!",
       "advancements.combine_the_worms.descr": "Make a Worm Blade",
       "advancements.car_mine.title": "CarMINE",
       "item.monkeania.plastic_ingot": "Plastic",

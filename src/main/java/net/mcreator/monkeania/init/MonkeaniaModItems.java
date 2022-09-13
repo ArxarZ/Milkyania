@@ -52,6 +52,7 @@ import net.mcreator.monkeania.item.NecroniteArmorItem;
 import net.mcreator.monkeania.item.GoldenWormItem;
 import net.mcreator.monkeania.item.FriesItem;
 import net.mcreator.monkeania.item.FlyItemItem;
+import net.mcreator.monkeania.item.ExcaliburItem;
 import net.mcreator.monkeania.item.EdibleRockItem;
 import net.mcreator.monkeania.item.DirtSwordItem;
 import net.mcreator.monkeania.item.DirtArmorItem;
@@ -194,6 +195,7 @@ public class MonkeaniaModItems {
 	public static final RegistryObject<Item> BLACK_AXE = REGISTRY.register("black_axe", () -> new BlackAxeItem());
 	public static final RegistryObject<Item> BLACK_SHOVEL = REGISTRY.register("black_shovel", () -> new BlackShovelItem());
 	public static final RegistryObject<Item> BLACK_HOE = REGISTRY.register("black_hoe", () -> new BlackHoeItem());
+	public static final RegistryObject<Item> EXCALIBUR = REGISTRY.register("excalibur", () -> new ExcaliburItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

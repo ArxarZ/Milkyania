@@ -1,0 +1,33 @@
+{
+  "_fv": 33,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "excalibur",
+    "customModelName": "Normal",
+    "name": "The Excalibur",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 1000,
+    "efficiency": 1000.0,
+    "attackSpeed": 23.0,
+    "enchantability": 1000,
+    "damageVsEntity": 97.0,
+    "usageCount": 100000,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onItemInInventoryTick": {
+      "name": "TheExcalibur"
+    },
+    "onItemInUseTick": {
+      "name": "TheExcalibur"
+    }
+  }
+}
