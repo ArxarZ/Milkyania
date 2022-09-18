@@ -33,6 +33,7 @@ import net.minecraft.core.Holder;
 import net.mcreator.monkeania.world.biome.SpookyForestBiome;
 import net.mcreator.monkeania.world.biome.OuterPlantsBiome;
 import net.mcreator.monkeania.world.biome.IcelandBiome;
+import net.mcreator.monkeania.world.biome.BurningMountainsBiome;
 import net.mcreator.monkeania.MonkeaniaMod;
 
 import java.util.Map;
@@ -47,6 +48,7 @@ public class MonkeaniaModBiomes {
 	public static final RegistryObject<Biome> ICELAND = REGISTRY.register("iceland", () -> IcelandBiome.createBiome());
 	public static final RegistryObject<Biome> SPOOKY_FOREST = REGISTRY.register("spooky_forest", () -> SpookyForestBiome.createBiome());
 	public static final RegistryObject<Biome> OUTER_PLANTS = REGISTRY.register("outer_plants", () -> OuterPlantsBiome.createBiome());
+	public static final RegistryObject<Biome> BURNING_MOUNTAINS = REGISTRY.register("burning_mountains", () -> BurningMountainsBiome.createBiome());
 
 	@SubscribeEvent
 	public static void init(FMLCommonSetupEvent event) {
@@ -54,6 +56,7 @@ public class MonkeaniaModBiomes {
 			IcelandBiome.init();
 			SpookyForestBiome.init();
 			OuterPlantsBiome.init();
+			BurningMountainsBiome.init();
 		});
 	}
 
@@ -78,6 +81,8 @@ public class MonkeaniaModBiomes {
 								biomeRegistry.getOrCreateHolder(ResourceKey.create(Registry.BIOME_REGISTRY, SPOOKY_FOREST.getId()))));
 						parameters.add(new Pair<>(OuterPlantsBiome.PARAMETER_POINT,
 								biomeRegistry.getOrCreateHolder(ResourceKey.create(Registry.BIOME_REGISTRY, OUTER_PLANTS.getId()))));
+						parameters.add(new Pair<>(BurningMountainsBiome.PARAMETER_POINT,
+								biomeRegistry.getOrCreateHolder(ResourceKey.create(Registry.BIOME_REGISTRY, BURNING_MOUNTAINS.getId()))));
 
 						MultiNoiseBiomeSource moddedNoiseSource = new MultiNoiseBiomeSource(new Climate.ParameterList<>(parameters),
 								noiseSource.preset);
@@ -96,6 +101,10 @@ public class MonkeaniaModBiomes {
 									Blocks.PODZOL.defaultBlockState(), Blocks.COARSE_DIRT.defaultBlockState(), Blocks.PODZOL.defaultBlockState()));
 							surfaceRules.add(1, preliminarySurfaceRule(ResourceKey.create(Registry.BIOME_REGISTRY, OUTER_PLANTS.getId()),
 									Blocks.GRASS_BLOCK.defaultBlockState(), Blocks.DIRT.defaultBlockState(), Blocks.DIRT.defaultBlockState()));
+							surfaceRules.add(1,
+									preliminarySurfaceRule(ResourceKey.create(Registry.BIOME_REGISTRY, BURNING_MOUNTAINS.getId()),
+											Blocks.NETHERRACK.defaultBlockState(), Blocks.CRIMSON_HYPHAE.defaultBlockState(),
+											Blocks.CRIMSON_HYPHAE.defaultBlockState()));
 							NoiseGeneratorSettings moddedNoiseGeneratorSettings = new NoiseGeneratorSettings(noiseGeneratorSettings.noiseSettings(),
 									noiseGeneratorSettings.defaultBlock(), noiseGeneratorSettings.defaultFluid(),
 									noiseGeneratorSettings.noiseRouter(),

@@ -1728,6 +1728,14 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "excalibur_altar"
+    },
+    {
+      "name": "BurningMountains",
+      "type": "biome",
+      "sortid": 236,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "burning_mountains"
     }
   ],
   "variable_elements": [],
@@ -1815,6 +1823,7 @@
       "advancements.hell_on_earth.descr": "Enter The Carmine Forest",
       "item.monkeania.ruby_armor_helmet": "Ruby Helmet",
       "item.monkeania.necronite_shovel": "Necronite Shovel",
+      "biome.monkeania.burning_mountains": "Burning Mountains",
       "entity.monkeania.burnt_slime_attack": "Enraged Burnt Slime",
       "item.monkeania.plastic_shovel": "Plastic Shovel",
       "item.monkeania.golden_worm_entity_spawn_egg": "Golden Worm Spawn Egg",
