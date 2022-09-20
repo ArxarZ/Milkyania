@@ -25,6 +25,7 @@ import net.mcreator.monkeania.block.PlasticOreBlock;
 import net.mcreator.monkeania.block.PlasticBlockBlock;
 import net.mcreator.monkeania.block.NecroniteOreBlock;
 import net.mcreator.monkeania.block.NecroniteBlockBlock;
+import net.mcreator.monkeania.block.GrassyWheatBlock;
 import net.mcreator.monkeania.block.CarmineFlowerBlock;
 import net.mcreator.monkeania.block.AlienRoseBlock;
 import net.mcreator.monkeania.MonkeaniaMod;
@@ -44,6 +45,7 @@ public class MonkeaniaModBlocks {
 	public static final RegistryObject<Block> NECRONITE_ORE = REGISTRY.register("necronite_ore", () -> new NecroniteOreBlock());
 	public static final RegistryObject<Block> NECRONITE_BLOCK = REGISTRY.register("necronite_block", () -> new NecroniteBlockBlock());
 	public static final RegistryObject<Block> ALIEN_ROSE = REGISTRY.register("alien_rose", () -> new AlienRoseBlock());
+	public static final RegistryObject<Block> GRASSY_WHEAT = REGISTRY.register("grassy_wheat", () -> new GrassyWheatBlock());
 
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 	public static class ClientSideHandler {
@@ -52,6 +54,7 @@ public class MonkeaniaModBlocks {
 			CarmineFlowerBlock.registerRenderLayer();
 			SkyLeafBlock.registerRenderLayer();
 			AlienRoseBlock.registerRenderLayer();
+			GrassyWheatBlock.registerRenderLayer();
 		}
 	}
 }

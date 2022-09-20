@@ -1744,6 +1744,14 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "ghost"
+    },
+    {
+      "name": "GrassyWheat",
+      "type": "plant",
+      "sortid": 238,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grassy_wheat"
     }
   ],
   "variable_elements": [],
@@ -1877,6 +1885,7 @@
       "advancements.to_the_heavens.descr": "Get a sky leaf",
       "item.monkeania.sapphire_armor_leggings": "Sapphire Leggings",
       "item.monkeania.ruby_hoe": "Ruby Hoe",
+      "block.monkeania.grassy_wheat": "Grassy Wheat",
       "block.monkeania.necronite_block": "Block of Necronite",
       "item.monkeania.uncle_joe_spawn_egg": "Uncle Joe Spawn Egg",
       "item.monkeania.sapphire_armor_boots": "Sapphire Boots",

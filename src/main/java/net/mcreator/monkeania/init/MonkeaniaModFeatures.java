@@ -18,6 +18,7 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.core.Holder;
 
 import net.mcreator.monkeania.world.features.plants.SkyLeafFeature;
+import net.mcreator.monkeania.world.features.plants.GrassyWheatFeature;
 import net.mcreator.monkeania.world.features.plants.CarmineFlowerFeature;
 import net.mcreator.monkeania.world.features.plants.AlienRoseFeature;
 import net.mcreator.monkeania.world.features.ores.TravertineFeature;
@@ -72,6 +73,8 @@ public class MonkeaniaModFeatures {
 	public static final RegistryObject<Feature<?>> EXCALIBUR_ALTAR = register("excalibur_altar", ExcaliburAltarFeature::feature,
 			new FeatureRegistration(GenerationStep.Decoration.SURFACE_STRUCTURES, ExcaliburAltarFeature.GENERATE_BIOMES,
 					ExcaliburAltarFeature::placedFeature));
+	public static final RegistryObject<Feature<?>> GRASSY_WHEAT = register("grassy_wheat", GrassyWheatFeature::feature, new FeatureRegistration(
+			GenerationStep.Decoration.VEGETAL_DECORATION, GrassyWheatFeature.GENERATE_BIOMES, GrassyWheatFeature::placedFeature));
 
 	private static RegistryObject<Feature<?>> register(String registryname, Supplier<Feature<?>> feature, FeatureRegistration featureRegistration) {
 		FEATURE_REGISTRATIONS.add(featureRegistration);
