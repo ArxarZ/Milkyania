@@ -13,7 +13,7 @@
       "value": ""
     },
     "airColor": {
-      "value": -3407872,
+      "value": -6815744,
       "falpha": 0.0
     },
     "grassColor": {
@@ -46,7 +46,7 @@
     "rainingPossibility": 0.5,
     "temperature": 0.5,
     "baseHeight": 1.0,
-    "heightVariation": 0.2,
+    "heightVariation": 1.0,
     "spawnBiome": true,
     "spawnBiomeNether": false,
     "spawnInCaves": false,

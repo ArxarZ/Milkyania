@@ -24,7 +24,7 @@ public class ExcaliburItem extends SwordItem {
 			}
 
 			public float getAttackDamageBonus() {
-				return 95f;
+				return 68f;
 			}
 
 			public int getLevel() {
@@ -38,7 +38,7 @@ public class ExcaliburItem extends SwordItem {
 			public Ingredient getRepairIngredient() {
 				return Ingredient.EMPTY;
 			}
-		}, 3, 19f, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT).fireResistant());
+		}, 3, 21f, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT).fireResistant());
 	}
 
 	@Override

@@ -22,12 +22,12 @@ import java.util.List;
 public class BurningMountainsBiome {
 	public static final Climate.ParameterPoint PARAMETER_POINT = new Climate.ParameterPoint(Climate.Parameter.span(-0.142857142857f, 0.142857142857f),
 			Climate.Parameter.span(-0.142857142857f, 0.142857142857f), Climate.Parameter.span(0.457142857143f, 0.742857142857f),
-			Climate.Parameter.span(0.657142857143f, 0.942857142857f), Climate.Parameter.point(0),
+			Climate.Parameter.span(-0.142857142857f, 0.142857142857f), Climate.Parameter.point(0),
 			Climate.Parameter.span(-0.692647550228f, -0.406933264514f), 0);
 
 	public static Biome createBiome() {
-		BiomeSpecialEffects effects = new BiomeSpecialEffects.Builder().fogColor(-3407872).waterColor(4159204).waterFogColor(329011)
-				.skyColor(-3407872).foliageColorOverride(-14348272).grassColorOverride(-3394816).build();
+		BiomeSpecialEffects effects = new BiomeSpecialEffects.Builder().fogColor(-6815744).waterColor(4159204).waterFogColor(329011)
+				.skyColor(-6815744).foliageColorOverride(-14348272).grassColorOverride(-3394816).build();
 		BiomeGenerationSettings.Builder biomeGenerationSettings = new BiomeGenerationSettings.Builder();
 		biomeGenerationSettings.addFeature(GenerationStep.Decoration.VEGETAL_DECORATION,
 				PlacementUtils.register("monkeania:grass_burning_mountains", VegetationFeatures.PATCH_GRASS,
