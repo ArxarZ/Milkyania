@@ -196,6 +196,8 @@ public class MonkeaniaModItems {
 	public static final RegistryObject<Item> BLACK_SHOVEL = REGISTRY.register("black_shovel", () -> new BlackShovelItem());
 	public static final RegistryObject<Item> BLACK_HOE = REGISTRY.register("black_hoe", () -> new BlackHoeItem());
 	public static final RegistryObject<Item> EXCALIBUR = REGISTRY.register("excalibur", () -> new ExcaliburItem());
+	public static final RegistryObject<Item> GHOST = REGISTRY.register("ghost_spawn_egg",
+			() -> new ForgeSpawnEggItem(MonkeaniaModEntities.GHOST, -15527920, -11711926, new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

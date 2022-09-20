@@ -23,6 +23,7 @@ import net.mcreator.monkeania.entity.TrichinaEntity;
 import net.mcreator.monkeania.entity.SkyderEntity;
 import net.mcreator.monkeania.entity.OneLegSpiderEntity;
 import net.mcreator.monkeania.entity.GoldenWormEntityEntity;
+import net.mcreator.monkeania.entity.GhostEntity;
 import net.mcreator.monkeania.entity.FlyEntity;
 import net.mcreator.monkeania.entity.ButterflyEntity;
 import net.mcreator.monkeania.entity.BurntSlimeEntity;
@@ -105,6 +106,11 @@ public class MonkeaniaModEntities {
 					.setUpdateInterval(3).setCustomClientFactory(TrichinaEntity::new)
 
 					.sized(2f, 2f));
+	public static final RegistryObject<EntityType<GhostEntity>> GHOST = register("ghost",
+			EntityType.Builder.<GhostEntity>of(GhostEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64)
+					.setUpdateInterval(3).setCustomClientFactory(GhostEntity::new)
+
+					.sized(0.4f, 0.6f));
 
 	private static <T extends Entity> RegistryObject<EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		return REGISTRY.register(registryname, () -> (EntityType<T>) entityTypeBuilder.build(registryname));
@@ -127,6 +133,7 @@ public class MonkeaniaModEntities {
 			AbyssiusEntity.init();
 			ZebraEntity.init();
 			TrichinaEntity.init();
+			GhostEntity.init();
 		});
 	}
 
@@ -146,5 +153,6 @@ public class MonkeaniaModEntities {
 		event.put(ABYSSIUS.get(), AbyssiusEntity.createAttributes().build());
 		event.put(ZEBRA.get(), ZebraEntity.createAttributes().build());
 		event.put(TRICHINA.get(), TrichinaEntity.createAttributes().build());
+		event.put(GHOST.get(), GhostEntity.createAttributes().build());
 	}
 }

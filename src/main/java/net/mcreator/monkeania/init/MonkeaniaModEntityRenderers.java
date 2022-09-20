@@ -16,6 +16,7 @@ import net.mcreator.monkeania.client.renderer.TrichinaRenderer;
 import net.mcreator.monkeania.client.renderer.SkyderRenderer;
 import net.mcreator.monkeania.client.renderer.OneLegSpiderRenderer;
 import net.mcreator.monkeania.client.renderer.GoldenWormEntityRenderer;
+import net.mcreator.monkeania.client.renderer.GhostRenderer;
 import net.mcreator.monkeania.client.renderer.FlyRenderer;
 import net.mcreator.monkeania.client.renderer.ButterflyRenderer;
 import net.mcreator.monkeania.client.renderer.BurntSlimeRenderer;
@@ -42,5 +43,6 @@ public class MonkeaniaModEntityRenderers {
 		event.registerEntityRenderer(MonkeaniaModEntities.ABYSSIUS.get(), AbyssiusRenderer::new);
 		event.registerEntityRenderer(MonkeaniaModEntities.ZEBRA.get(), ZebraRenderer::new);
 		event.registerEntityRenderer(MonkeaniaModEntities.TRICHINA.get(), TrichinaRenderer::new);
+		event.registerEntityRenderer(MonkeaniaModEntities.GHOST.get(), GhostRenderer::new);
 	}
 }

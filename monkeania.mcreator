@@ -1736,6 +1736,14 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "burning_mountains"
+    },
+    {
+      "name": "Ghost",
+      "type": "livingentity",
+      "sortid": 237,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ghost"
     }
   ],
   "variable_elements": [],
@@ -1820,6 +1828,7 @@
       "item.monkeania.necronite_axe": "Necronite Axe",
       "advancements.scary.descr": "Enter The Spooky Forest",
       "advancements.ice_cold.title": "Ice Cold",
+      "item.monkeania.ghost_spawn_egg": "Ghost Spawn Egg",
       "advancements.hell_on_earth.descr": "Enter The Carmine Forest",
       "item.monkeania.ruby_armor_helmet": "Ruby Helmet",
       "item.monkeania.necronite_shovel": "Necronite Shovel",
@@ -1828,6 +1837,7 @@
       "item.monkeania.plastic_shovel": "Plastic Shovel",
       "item.monkeania.golden_worm_entity_spawn_egg": "Golden Worm Spawn Egg",
       "block.monkeania.alien_rose": "Alien Rose",
+      "entity.monkeania.ghost": "Ghost",
       "item.monkeania.sapphire": "Sapphire",
       "block.monkeania.sapphire_ore": "Sapphire Ore",
       "item.monkeania.excalibur": "The Excalibur",

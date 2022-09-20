@@ -15,6 +15,7 @@ import net.mcreator.monkeania.client.model.Modeltrichina;
 import net.mcreator.monkeania.client.model.Modelspiderchestplate;
 import net.mcreator.monkeania.client.model.Modelskyder;
 import net.mcreator.monkeania.client.model.Modelonelegspider;
+import net.mcreator.monkeania.client.model.Modelghost;
 import net.mcreator.monkeania.client.model.Modelfly;
 import net.mcreator.monkeania.client.model.Modelcustom_model;
 import net.mcreator.monkeania.client.model.Modelbutterfly;
@@ -37,6 +38,7 @@ public class MonkeaniaModModels {
 		event.registerLayerDefinition(Modelcustom_model.LAYER_LOCATION, Modelcustom_model::createBodyLayer);
 		event.registerLayerDefinition(Modelabyssius.LAYER_LOCATION, Modelabyssius::createBodyLayer);
 		event.registerLayerDefinition(Modelonelegspider.LAYER_LOCATION, Modelonelegspider::createBodyLayer);
+		event.registerLayerDefinition(Modelghost.LAYER_LOCATION, Modelghost::createBodyLayer);
 		event.registerLayerDefinition(Modelbutterfly.LAYER_LOCATION, Modelbutterfly::createBodyLayer);
 		event.registerLayerDefinition(Modelspiderchestplate.LAYER_LOCATION, Modelspiderchestplate::createBodyLayer);
 		event.registerLayerDefinition(Modelfly.LAYER_LOCATION, Modelfly::createBodyLayer);
