@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "monkeania:block/skyland_portal_ew"
+    },
+    "axis=x": {
+      "model": "monkeania:block/skyland_portal_ns"
+    }
+  }
+}

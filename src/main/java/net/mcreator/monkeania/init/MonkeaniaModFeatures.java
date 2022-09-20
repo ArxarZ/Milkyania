@@ -31,6 +31,7 @@ import net.mcreator.monkeania.world.features.ScoriaRockUndergroundFeature;
 import net.mcreator.monkeania.world.features.ScoriaRockFeature;
 import net.mcreator.monkeania.world.features.McdonaldsFeature;
 import net.mcreator.monkeania.world.features.ExcaliburAltarFeature;
+import net.mcreator.monkeania.world.features.CloudstructureFeature;
 import net.mcreator.monkeania.world.features.AltarOfHoneyFeature;
 import net.mcreator.monkeania.MonkeaniaMod;
 
@@ -75,6 +76,9 @@ public class MonkeaniaModFeatures {
 					ExcaliburAltarFeature::placedFeature));
 	public static final RegistryObject<Feature<?>> GRASSY_WHEAT = register("grassy_wheat", GrassyWheatFeature::feature, new FeatureRegistration(
 			GenerationStep.Decoration.VEGETAL_DECORATION, GrassyWheatFeature.GENERATE_BIOMES, GrassyWheatFeature::placedFeature));
+	public static final RegistryObject<Feature<?>> CLOUDSTRUCTURE = register("cloudstructure", CloudstructureFeature::feature,
+			new FeatureRegistration(GenerationStep.Decoration.RAW_GENERATION, CloudstructureFeature.GENERATE_BIOMES,
+					CloudstructureFeature::placedFeature));
 
 	private static RegistryObject<Feature<?>> register(String registryname, Supplier<Feature<?>> feature, FeatureRegistration featureRegistration) {
 		FEATURE_REGISTRATIONS.add(featureRegistration);

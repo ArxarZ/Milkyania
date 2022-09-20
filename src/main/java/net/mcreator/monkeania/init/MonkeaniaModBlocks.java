@@ -15,6 +15,7 @@ import net.minecraftforge.api.distmarker.Dist;
 import net.minecraft.world.level.block.Block;
 
 import net.mcreator.monkeania.block.TravertineBlock;
+import net.mcreator.monkeania.block.SkylandPortalBlock;
 import net.mcreator.monkeania.block.SkyLeafBlock;
 import net.mcreator.monkeania.block.ScoriaBlock;
 import net.mcreator.monkeania.block.SapphireOreBlock;
@@ -26,6 +27,7 @@ import net.mcreator.monkeania.block.PlasticBlockBlock;
 import net.mcreator.monkeania.block.NecroniteOreBlock;
 import net.mcreator.monkeania.block.NecroniteBlockBlock;
 import net.mcreator.monkeania.block.GrassyWheatBlock;
+import net.mcreator.monkeania.block.CloudBlock;
 import net.mcreator.monkeania.block.CarmineFlowerBlock;
 import net.mcreator.monkeania.block.AlienRoseBlock;
 import net.mcreator.monkeania.MonkeaniaMod;
@@ -46,6 +48,8 @@ public class MonkeaniaModBlocks {
 	public static final RegistryObject<Block> NECRONITE_BLOCK = REGISTRY.register("necronite_block", () -> new NecroniteBlockBlock());
 	public static final RegistryObject<Block> ALIEN_ROSE = REGISTRY.register("alien_rose", () -> new AlienRoseBlock());
 	public static final RegistryObject<Block> GRASSY_WHEAT = REGISTRY.register("grassy_wheat", () -> new GrassyWheatBlock());
+	public static final RegistryObject<Block> CLOUD = REGISTRY.register("cloud", () -> new CloudBlock());
+	public static final RegistryObject<Block> SKYLAND_PORTAL = REGISTRY.register("skyland_portal", () -> new SkylandPortalBlock());
 
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 	public static class ClientSideHandler {

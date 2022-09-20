@@ -1,0 +1,261 @@
+{
+  "_fv": 33,
+  "_type": "biome",
+  "definition": {
+    "name": "Living Jungle",
+    "groundBlock": {
+      "value": "Blocks.GRASS"
+    },
+    "undergroundBlock": {
+      "value": "Blocks.DIRT#0"
+    },
+    "underwaterBlock": {
+      "value": ""
+    },
+    "airColor": {
+      "value": -13369345,
+      "falpha": 0.0
+    },
+    "grassColor": {
+      "value": -13369549,
+      "falpha": 0.0
+    },
+    "foliageColor": {
+      "value": -16751104,
+      "falpha": 0.0
+    },
+    "waterColor": {
+      "value": -16724737,
+      "falpha": 0.0
+    },
+    "waterFogColor": {
+      "value": -13382401,
+      "falpha": 0.0
+    },
+    "ambientSound": {
+      "value": ""
+    },
+    "additionsSound": {
+      "value": ""
+    },
+    "music": {
+      "value": ""
+    },
+    "moodSound": {
+      "value": ""
+    },
+    "moodSoundDelay": 6000,
+    "spawnParticles": false,
+    "particleToSpawn": {
+      "value": "EXPLOSION_NORMAL"
+    },
+    "particlesProbability": 0.5,
+    "biomeCategory": "JUNGLE",
+    "rainingPossibility": 0.7,
+    "temperature": 0.5,
+    "baseHeight": 0.1,
+    "heightVariation": 0.2,
+    "spawnBiome": true,
+    "spawnBiomeNether": false,
+    "spawnInCaves": false,
+    "biomeWeight": 10,
+    "biomeDictionaryTypes": [],
+    "grassPerChunk": 8,
+    "seagrassPerChunk": 0,
+    "flowersPerChunk": 12,
+    "mushroomsPerChunk": 0,
+    "bigMushroomsChunk": 0,
+    "sandPatchesPerChunk": 0,
+    "gravelPatchesPerChunk": 0,
+    "reedsPerChunk": 0,
+    "cactiPerChunk": 0,
+    "treesPerChunk": 6,
+    "vanillaTreeType": "Default",
+    "treeType": 1,
+    "minHeight": 20,
+    "treeStem": {
+      "value": "Blocks.LOG#3"
+    },
+    "treeBranch": {
+      "value": "Blocks.LEAVES#3"
+    },
+    "treeVines": {
+      "value": "Blocks.VINE"
+    },
+    "treeFruits": {
+      "value": ""
+    },
+    "spawnStronghold": false,
+    "spawnMineshaft": false,
+    "spawnMineshaftMesa": false,
+    "spawnPillagerOutpost": false,
+    "villageType": "none",
+    "spawnWoodlandMansion": false,
+    "spawnJungleTemple": false,
+    "spawnDesertPyramid": false,
+    "spawnSwampHut": false,
+    "spawnIgloo": false,
+    "spawnOceanMonument": false,
+    "spawnShipwreck": false,
+    "spawnShipwreckBeached": false,
+    "spawnBuriedTreasure": false,
+    "oceanRuinType": "NONE",
+    "spawnNetherBridge": false,
+    "spawnNetherFossil": false,
+    "spawnBastionRemnant": false,
+    "spawnEndCity": false,
+    "spawnRuinedPortal": "NONE",
+    "defaultFeatures": [
+      "Caves",
+      "Ores",
+      "FrozenTopLayer",
+      "JungleGrass"
+    ],
+    "spawnEntries": [
+      {
+        "entity": {
+          "value": "EntityOcelot"
+        },
+        "minGroup": 1,
+        "maxGroup": 1,
+        "weight": 18,
+        "spawnType": "creature"
+      },
+      {
+        "entity": {
+          "value": "CUSTOM:Ant"
+        },
+        "minGroup": 1,
+        "maxGroup": 1,
+        "weight": 20,
+        "spawnType": "creature"
+      },
+      {
+        "entity": {
+          "value": "CUSTOM:Butterfly"
+        },
+        "minGroup": 1,
+        "maxGroup": 1,
+        "weight": 20,
+        "spawnType": "creature"
+      },
+      {
+        "entity": {
+          "value": "CUSTOM:Fly"
+        },
+        "minGroup": 1,
+        "maxGroup": 1,
+        "weight": 20,
+        "spawnType": "creature"
+      },
+      {
+        "entity": {
+          "value": "CUSTOM:Ghost"
+        },
+        "minGroup": 1,
+        "maxGroup": 1,
+        "weight": 20,
+        "spawnType": "monster"
+      },
+      {
+        "entity": {
+          "value": "CUSTOM:Worm"
+        },
+        "minGroup": 1,
+        "maxGroup": 1,
+        "weight": 20,
+        "spawnType": "creature"
+      },
+      {
+        "entity": {
+          "value": "CUSTOM:UncleJoe"
+        },
+        "minGroup": 1,
+        "maxGroup": 3,
+        "weight": 21,
+        "spawnType": "monster"
+      },
+      {
+        "entity": {
+          "value": "CUSTOM:Worm"
+        },
+        "minGroup": 1,
+        "maxGroup": 1,
+        "weight": 20,
+        "spawnType": "creature"
+      },
+      {
+        "entity": {
+          "value": "CUSTOM:Skyder"
+        },
+        "minGroup": 1,
+        "maxGroup": 1,
+        "weight": 20,
+        "spawnType": "monster"
+      },
+      {
+        "entity": {
+          "value": "EntityBat"
+        },
+        "minGroup": 1,
+        "maxGroup": 1,
+        "weight": 20,
+        "spawnType": "ambient"
+      },
+      {
+        "entity": {
+          "value": "EntitySkeleton"
+        },
+        "minGroup": 1,
+        "maxGroup": 1,
+        "weight": 20,
+        "spawnType": "monster"
+      },
+      {
+        "entity": {
+          "value": "EntitySkeletonHorse"
+        },
+        "minGroup": 1,
+        "maxGroup": 1,
+        "weight": 20,
+        "spawnType": "monster"
+      },
+      {
+        "entity": {
+          "value": "EntityZombie"
+        },
+        "minGroup": 1,
+        "maxGroup": 1,
+        "weight": 20,
+        "spawnType": "monster"
+      },
+      {
+        "entity": {
+          "value": "EntityCreeper"
+        },
+        "minGroup": 1,
+        "maxGroup": 1,
+        "weight": 20,
+        "spawnType": "monster"
+      },
+      {
+        "entity": {
+          "value": "CUSTOM:Arachna"
+        },
+        "minGroup": 1,
+        "maxGroup": 1,
+        "weight": 15,
+        "spawnType": "monster"
+      },
+      {
+        "entity": {
+          "value": "EntitySpider"
+        },
+        "minGroup": 1,
+        "maxGroup": 1,
+        "weight": 20,
+        "spawnType": "monster"
+      }
+    ]
+  }
+}

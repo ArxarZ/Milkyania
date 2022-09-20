@@ -10,7 +10,7 @@ import net.mcreator.monkeania.client.model.Modelghost;
 
 public class GhostRenderer extends MobRenderer<GhostEntity, Modelghost<GhostEntity>> {
 	public GhostRenderer(EntityRendererProvider.Context context) {
-		super(context, new Modelghost(context.bakeLayer(Modelghost.LAYER_LOCATION)), 0.2f);
+		super(context, new Modelghost(context.bakeLayer(Modelghost.LAYER_LOCATION)), 0.5f);
 	}
 
 	@Override

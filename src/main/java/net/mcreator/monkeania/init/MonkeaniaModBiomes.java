@@ -30,8 +30,10 @@ import net.minecraft.resources.ResourceKey;
 import net.minecraft.core.Registry;
 import net.minecraft.core.Holder;
 
+import net.mcreator.monkeania.world.biome.TheskyBiome;
 import net.mcreator.monkeania.world.biome.SpookyForestBiome;
 import net.mcreator.monkeania.world.biome.OuterPlantsBiome;
+import net.mcreator.monkeania.world.biome.LivingJungleBiome;
 import net.mcreator.monkeania.world.biome.IcelandBiome;
 import net.mcreator.monkeania.world.biome.BurningMountainsBiome;
 import net.mcreator.monkeania.MonkeaniaMod;
@@ -49,6 +51,8 @@ public class MonkeaniaModBiomes {
 	public static final RegistryObject<Biome> SPOOKY_FOREST = REGISTRY.register("spooky_forest", () -> SpookyForestBiome.createBiome());
 	public static final RegistryObject<Biome> OUTER_PLANTS = REGISTRY.register("outer_plants", () -> OuterPlantsBiome.createBiome());
 	public static final RegistryObject<Biome> BURNING_MOUNTAINS = REGISTRY.register("burning_mountains", () -> BurningMountainsBiome.createBiome());
+	public static final RegistryObject<Biome> LIVING_JUNGLE = REGISTRY.register("living_jungle", () -> LivingJungleBiome.createBiome());
+	public static final RegistryObject<Biome> THESKY = REGISTRY.register("thesky", () -> TheskyBiome.createBiome());
 
 	@SubscribeEvent
 	public static void init(FMLCommonSetupEvent event) {
@@ -57,6 +61,8 @@ public class MonkeaniaModBiomes {
 			SpookyForestBiome.init();
 			OuterPlantsBiome.init();
 			BurningMountainsBiome.init();
+			LivingJungleBiome.init();
+			TheskyBiome.init();
 		});
 	}
 
@@ -83,6 +89,10 @@ public class MonkeaniaModBiomes {
 								biomeRegistry.getOrCreateHolder(ResourceKey.create(Registry.BIOME_REGISTRY, OUTER_PLANTS.getId()))));
 						parameters.add(new Pair<>(BurningMountainsBiome.PARAMETER_POINT,
 								biomeRegistry.getOrCreateHolder(ResourceKey.create(Registry.BIOME_REGISTRY, BURNING_MOUNTAINS.getId()))));
+						parameters.add(new Pair<>(LivingJungleBiome.PARAMETER_POINT,
+								biomeRegistry.getOrCreateHolder(ResourceKey.create(Registry.BIOME_REGISTRY, LIVING_JUNGLE.getId()))));
+						parameters.add(new Pair<>(TheskyBiome.PARAMETER_POINT,
+								biomeRegistry.getOrCreateHolder(ResourceKey.create(Registry.BIOME_REGISTRY, THESKY.getId()))));
 
 						MultiNoiseBiomeSource moddedNoiseSource = new MultiNoiseBiomeSource(new Climate.ParameterList<>(parameters),
 								noiseSource.preset);
@@ -105,6 +115,12 @@ public class MonkeaniaModBiomes {
 									preliminarySurfaceRule(ResourceKey.create(Registry.BIOME_REGISTRY, BURNING_MOUNTAINS.getId()),
 											Blocks.NETHERRACK.defaultBlockState(), Blocks.CRIMSON_HYPHAE.defaultBlockState(),
 											Blocks.CRIMSON_HYPHAE.defaultBlockState()));
+							surfaceRules.add(1, preliminarySurfaceRule(ResourceKey.create(Registry.BIOME_REGISTRY, LIVING_JUNGLE.getId()),
+									Blocks.GRASS_BLOCK.defaultBlockState(), Blocks.DIRT.defaultBlockState(), Blocks.DIRT.defaultBlockState()));
+							surfaceRules.add(1,
+									preliminarySurfaceRule(ResourceKey.create(Registry.BIOME_REGISTRY, THESKY.getId()),
+											MonkeaniaModBlocks.CLOUD.get().defaultBlockState(), MonkeaniaModBlocks.CLOUD.get().defaultBlockState(),
+											MonkeaniaModBlocks.CLOUD.get().defaultBlockState()));
 							NoiseGeneratorSettings moddedNoiseGeneratorSettings = new NoiseGeneratorSettings(noiseGeneratorSettings.noiseSettings(),
 									noiseGeneratorSettings.defaultBlock(), noiseGeneratorSettings.defaultFluid(),
 									noiseGeneratorSettings.noiseRouter(),

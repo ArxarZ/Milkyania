@@ -1752,6 +1752,49 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "grassy_wheat"
+    },
+    {
+      "name": "LivingJungle",
+      "type": "biome",
+      "sortid": 239,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "living_jungle"
+    },
+    {
+      "name": "Cloud",
+      "type": "block",
+      "sortid": 240,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cloud"
+    },
+    {
+      "name": "Thesky",
+      "type": "biome",
+      "sortid": 241,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thesky"
+    },
+    {
+      "name": "Skyland",
+      "type": "dimension",
+      "sortid": 241,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "skyland",
+      "metadata": {
+        "ep": true
+      }
+    },
+    {
+      "name": "Cloudstructure",
+      "type": "structure",
+      "sortid": 242,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cloudstructure"
     }
   ],
   "variable_elements": [],
@@ -1769,6 +1812,7 @@
       "advancements.scary.title": "Scary",
       "entity.monkeania.one_leg_spider": "One Leg Spider",
       "item.monkeania.spider_armor_leggings": "Spider Leggings",
+      "item.monkeania.skyland": "Essence Of The Sky",
       "item.monkeania.necronite_pickaxe": "Necronite Pickaxe",
       "item.monkeania.plastic_hoe": "Plastic Hoe",
       "item.monkeania.spider_armor_boots": "Spider Boots",
@@ -1790,6 +1834,7 @@
       "item.monkeania.spider_leg": "Spider Leg",
       "item.monkeania.abyssius_spawn_egg": "Abyssius Spawn Egg",
       "item.monkeania.cooked_zebra_meat": "Cooked Zebra Meat",
+      "block.monkeania.cloud": "Cloud",
       "advancements.its_golden.title": "Its Golden?",
       "item.monkeania.spider_armor_chestplate": "Spider Chestplate",
       "advancements.ice_cold.descr": "Enter Iceland",
@@ -1798,6 +1843,7 @@
       "item.monkeania.ruby_armor_boots": "Ruby Boots",
       "item.monkeania.dirt_armor_helmet": "Dirt Helmet",
       "item.monkeania.sapphire_shovel": "Sapphire Shovel",
+      "biome.monkeania.living_jungle": "Living Jungle",
       "advancements.combine_the_worms.title": "Combine The Worms",
       "advancements.power_of_the_earth.title": "Power Of The Earth",
       "item.monkeania.fly_spawn_egg": "Fly Spawn Egg",
@@ -1824,6 +1870,7 @@
       "item.monkeania.necronite_hoe": "Necronite Hoe",
       "item.monkeania.ruby_sword": "Ruby Sword",
       "advancements.ant_advancement.descr": "Kill an ant",
+      "biome.monkeania.thesky": "The Sky",
       "item.monkeania.arachna_spawn_egg": "Arachna Spawn Egg",
       "advancements.butteflies.descr": "Kill a butterfly",
       "item.monkeania.plastic_armor_boots": "Plastic Boots",

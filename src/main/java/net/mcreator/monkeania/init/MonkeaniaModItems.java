@@ -19,6 +19,7 @@ import net.mcreator.monkeania.item.WormBladeItem;
 import net.mcreator.monkeania.item.SpiderSkinItem;
 import net.mcreator.monkeania.item.SpiderLegItem;
 import net.mcreator.monkeania.item.SpiderArmorItem;
+import net.mcreator.monkeania.item.SkylandItem;
 import net.mcreator.monkeania.item.SapphireSwordItem;
 import net.mcreator.monkeania.item.SapphireShovelItem;
 import net.mcreator.monkeania.item.SapphirePickaxeItem;
@@ -199,6 +200,8 @@ public class MonkeaniaModItems {
 	public static final RegistryObject<Item> GHOST = REGISTRY.register("ghost_spawn_egg",
 			() -> new ForgeSpawnEggItem(MonkeaniaModEntities.GHOST, -15527920, -11711926, new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
 	public static final RegistryObject<Item> GRASSY_WHEAT = block(MonkeaniaModBlocks.GRASSY_WHEAT, CreativeModeTab.TAB_DECORATIONS);
+	public static final RegistryObject<Item> CLOUD = block(MonkeaniaModBlocks.CLOUD, CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final RegistryObject<Item> SKYLAND = REGISTRY.register("skyland", () -> new SkylandItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "monkeania:blocks/cloud",
+    "up": "monkeania:blocks/cloud",
+    "north": "monkeania:blocks/cloud",
+    "east": "monkeania:blocks/cloud",
+    "south": "monkeania:blocks/cloud",
+    "west": "monkeania:blocks/cloud",
+    "particle": "monkeania:blocks/cloud"
+  }
+}
